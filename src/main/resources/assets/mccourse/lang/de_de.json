@@ -1,3 +1,14 @@
 {
-  "item.mccourse.alexandrite": "Alexandrit"
+  "item.mccourse.alexandrite": "Alexandrit",
+  "item.mccourse.raw_alexandrite": "Rohes Alexandrit",
+
+  "block.mccourse.alexandrite_block": "Alexandritblock",
+  "block.mccourse.raw_alexandrite_block": "Roher Alexandritblock",
+  "block.mccourse.alexandrite_ore": "Alexandriterz",
+  "block.mccourse.deepslate_alexandrite_ore": "Tiefenschiefer-Alexandriterz",
+  "block.mccourse.nether_alexandrite_ore": "Netheralexandriterz",
+  "block.mccourse.end_stone_alexandrite_block": "Endstein-Alexandritblock",
+
+
+  "creativetab.course_tab": "Kursgegenstände"
 }
