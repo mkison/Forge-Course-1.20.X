@@ -1,6 +1,10 @@
 {
   "item.mccourse.alexandrite": "Alexandrit",
   "item.mccourse.raw_alexandrite": "Rohes Alexandrit",
+  "item.mccourse.metal_detector": "Metalldetektor",
+
+  "item.mccourse.metal_detector.no_valuables": "Nichts gefunden!",
+  "item.mccourse.metal_detector_valuables": "Hier gibt's was zu holen:",
 
   "block.mccourse.alexandrite_block": "Alexandritblock",
   "block.mccourse.raw_alexandrite_block": "Roher Alexandritblock",
@@ -8,6 +12,8 @@
   "block.mccourse.deepslate_alexandrite_ore": "Tiefenschiefer-Alexandriterz",
   "block.mccourse.nether_alexandrite_ore": "Netheralexandriterz",
   "block.mccourse.end_stone_alexandrite_block": "Endstein-Alexandritblock",
+
+  "block.mccourse.sound_block": "Geräuschblock",
 
 
   "creativetab.course_tab": "Kursgegenstände"
