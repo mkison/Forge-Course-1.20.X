@@ -1,10 +1,16 @@
 {
   "item.mccourse.alexandrite": "Alexandrit",
   "item.mccourse.raw_alexandrite": "Rohes Alexandrit",
+
+  "item.mccourse.kohlrabi": "Kohlrabi",
   "item.mccourse.metal_detector": "Metalldetektor",
 
   "item.mccourse.metal_detector.no_valuables": "Nichts gefunden!",
   "item.mccourse.metal_detector_valuables": "Hier gibt's was zu holen:",
+
+  "tooltip.mccourse.metal_detector.tooltip.shift": "Rechtsklicken, um Schätze zu finden!",
+  "tooltip.mccourse.metal_detector.tooltip": "Drücke §eSHIFT§r für mehr Information",
+  "tooltip.mccourse.sound_block": "Spielt Geräusche beim drüberlaufen oder rechtsklicken ab",
 
   "block.mccourse.alexandrite_block": "Alexandritblock",
   "block.mccourse.raw_alexandrite_block": "Roher Alexandritblock",

@@ -5,6 +5,7 @@ import com.mojang.logging.LogUtils;
 import net.hehe.mccourse.ModTabs.ModCreativeModeTabs;
 import net.hehe.mccourse.block.ModBlocks;
 import net.hehe.mccourse.item.ModItems;
+import net.hehe.mccourse.util.ModTags;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
