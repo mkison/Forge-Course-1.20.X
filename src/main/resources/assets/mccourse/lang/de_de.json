@@ -4,6 +4,7 @@
 
   "item.mccourse.kohlrabi": "Kohlrabi",
   "item.mccourse.metal_detector": "Metalldetektor",
+  "item.mccourse.peat_brick": "Torfziegel",
 
   "item.mccourse.metal_detector.no_valuables": "Nichts gefunden!",
   "item.mccourse.metal_detector_valuables": "Hier gibt's was zu holen:",
@@ -20,7 +21,6 @@
   "block.mccourse.end_stone_alexandrite_block": "Endstein-Alexandritblock",
 
   "block.mccourse.sound_block": "Geräuschblock",
-
 
   "creativetab.course_tab": "Kursgegenstände"
 }
