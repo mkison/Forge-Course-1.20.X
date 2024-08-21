@@ -24,6 +24,9 @@
   "block.mccourse.alexandrite_stairs": "Alexandrittreppen",
   "block.mccourse.alexandrite_button": "Alexandritknopf",
   "block.mccourse.alexandrite_pressure_plate": "Alexandritdruckplatte",
+  "block.mccourse.alexandrite_fence": "Alexandritzaun",
+  "block.mccourse.alexandrite_fence_gate": "Alexandritzauntor",
+  "block.mccourse.alexandrite_wall": "Alexandritmauer",
 
   "block.mccourse.sound_block": "Geräuschblock",
 
