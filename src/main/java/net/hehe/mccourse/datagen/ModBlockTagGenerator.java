@@ -14,7 +14,8 @@ import org.jetbrains.annotations.Nullable;
 import java.util.concurrent.CompletableFuture;
 
 public class ModBlockTagGenerator extends BlockTagsProvider {
-    public ModBlockTagGenerator(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, @Nullable ExistingFileHelper existingFileHelper) {
+    public ModBlockTagGenerator(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider,
+                                @Nullable ExistingFileHelper existingFileHelper) {
         super(output, lookupProvider, MCCourseMod.MOD_ID, existingFileHelper);
     }
 
@@ -30,13 +31,21 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get(),
                         ModBlocks.END_STONE_ALEXANDRITE_ORE.get(),
                         ModBlocks.NETHER_ALEXANDRITE_ORE.get(),
-                        ModBlocks.SOUND_BLOCK.get());
+                        ModBlocks.SOUND_BLOCK.get(),
+                        ModBlocks.ALEXANDRITE_STAIRS.get(),
+                        ModBlocks.ALEXANDRITE_SLAB.get(),
+                        ModBlocks.ALEXANDRITE_BUTTON.get(),
+                        ModBlocks.ALEXANDRITE_PRESSURE_PLATE.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.ALEXANDRITE_BLOCK.get(),
                         ModBlocks.RAW_ALEXANDRITE_BLOCK.get(),
                         ModBlocks.ALEXANDRITE_ORE.get(),
-                        ModBlocks.SOUND_BLOCK.get());
+                        ModBlocks.SOUND_BLOCK.get(),
+                        ModBlocks.ALEXANDRITE_STAIRS.get(),
+                        ModBlocks.ALEXANDRITE_SLAB.get(),
+                        ModBlocks.ALEXANDRITE_BUTTON.get(),
+                        ModBlocks.ALEXANDRITE_PRESSURE_PLATE.get());
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get(),

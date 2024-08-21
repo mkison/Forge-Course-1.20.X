@@ -35,10 +35,30 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_alexandrite", has(ModItems.ALEXANDRITE.get()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ALEXANDRITE_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', ModItems.ALEXANDRITE.get())
+                .unlockedBy("has_alexandrite", has(ModItems.ALEXANDRITE.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ALEXANDRITE_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', ModItems.ALEXANDRITE.get())
+                .unlockedBy("has_alexandrite", has(ModItems.ALEXANDRITE.get()))
+                .save(pWriter);
+
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ALEXANDRITE.get(), 9)
                 .requires(ModBlocks.ALEXANDRITE_BLOCK.get())
                 .unlockedBy("has_alexandrite_block", has(ModBlocks.ALEXANDRITE_BLOCK.get()))
                 .save(pWriter);
+
+
+
 
         customNineBlockStorageRecipes(pWriter, RecipeCategory.MISC, ModItems.RAW_ALEXANDRITE.get(), RecipeCategory.MISC, ModBlocks.RAW_ALEXANDRITE_BLOCK.get(),
                 "raw_alexandrite", "raw_alexandrite_block");

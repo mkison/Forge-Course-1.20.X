@@ -20,6 +20,11 @@
   "block.mccourse.nether_alexandrite_ore": "Netheralexandriterz",
   "block.mccourse.end_stone_alexandrite_block": "Endstein-Alexandritblock",
 
+  "block.mccourse.alexandrite_slab": "Alexandritstufe",
+  "block.mccourse.alexandrite_stairs": "Alexandrittreppen",
+  "block.mccourse.alexandrite_button": "Alexandritknopf",
+  "block.mccourse.alexandrite_pressure_plate": "Alexandritdruckplatte",
+
   "block.mccourse.sound_block": "Geräuschblock",
 
   "creativetab.course_tab": "Kursgegenstände"
