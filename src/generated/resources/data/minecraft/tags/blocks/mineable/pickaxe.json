@@ -13,6 +13,8 @@
     "mccourse:alexandrite_pressure_plate",
     "mccourse:alexandrite_fence",
     "mccourse:alexandrite_fence_gate",
-    "mccourse:alexandrite_wall"
+    "mccourse:alexandrite_wall",
+    "mccourse:alexandrite_door",
+    "mccourse:alexandrite_trapdoor"
   ]
 }

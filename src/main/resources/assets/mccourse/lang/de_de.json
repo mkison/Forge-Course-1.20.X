@@ -6,6 +6,12 @@
   "item.mccourse.metal_detector": "Metalldetektor",
   "item.mccourse.peat_brick": "Torfziegel",
 
+  "item.mccourse.alexandrite_sword": "Alexandritschwert",
+  "item.mccourse.alexandrite_pickaxe": "Alexandritspitzhacke",
+  "item.mccourse.alexandrite_axe": "Alexandritaxt",
+  "item.mccourse.alexandrite_shovel": "Alexandritschaufel",
+  "item.mccourse.alexandrite_hoe": "Alexandritharke",
+
   "item.mccourse.metal_detector.no_valuables": "Nichts gefunden!",
   "item.mccourse.metal_detector_valuables": "Hier gibt's was zu holen:",
 
@@ -27,6 +33,8 @@
   "block.mccourse.alexandrite_fence": "Alexandritzaun",
   "block.mccourse.alexandrite_fence_gate": "Alexandritzauntor",
   "block.mccourse.alexandrite_wall": "Alexandritmauer",
+  "block.mccourse.alexandrite_door": "Alexandrittür",
+  "block.mccourse.alexandrite_trapdoor": "Alexandritfalltür",
 
   "block.mccourse.sound_block": "Geräuschblock",
 
