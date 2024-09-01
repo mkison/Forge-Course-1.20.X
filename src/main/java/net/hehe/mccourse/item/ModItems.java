@@ -1,10 +1,7 @@
 package net.hehe.mccourse.item;
 
 import net.hehe.mccourse.MCCourseMod;
-import net.hehe.mccourse.item.custom.FuelItem;
-import net.hehe.mccourse.item.custom.MetalDetectorItem;
-import net.hehe.mccourse.item.custom.ModFoodProperties;
-import net.hehe.mccourse.item.custom.ModToolTiers;
+import net.hehe.mccourse.item.custom.*;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -40,6 +37,12 @@ public class ModItems {
             ()-> new ShovelItem(ModToolTiers.ALEXANDRITE, -1, 10, new Item.Properties().durability(256)));
     public static final RegistryObject<Item> ALEXANDRITE_HOE = ITEMS.register("alexandrite_hoe",
             ()-> new HoeItem(ModToolTiers.ALEXANDRITE, -3, 10, new Item.Properties().durability(256)));
+
+    public static final RegistryObject<Item> ALEXANDRITE_PAXEL = ITEMS.register("alexandrite_paxel",
+            ()-> new PaxelItem(ModToolTiers.ALEXANDRITE, -3, 10, new Item.Properties().durability(256)));
+
+    public static final RegistryObject<Item> ALEXANDRITE_HAMMER = ITEMS.register("alexandrite_hammer",
+            ()-> new HammerItem(ModToolTiers.ALEXANDRITE, -3, 10, new Item.Properties().durability(256)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
