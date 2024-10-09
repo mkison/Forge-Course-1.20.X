@@ -14,6 +14,12 @@
   "item.mccourse.alexandrite_paxel": "Alexandritpaxel",
   "item.mccourse.alexandrite_hammer": "Alexandrithammer",
 
+  "item.mccourse.alexandrite_helmet": "Alexandrithelm",
+  "item.mccourse.alexandrite_chestplate": "Alexandritbrustplatte",
+  "item.mccourse.alexandrite_leggings": "Alexandrithosen",
+  "item.mccourse.alexandrite_boots": "Alexandritstiefel",
+
+  "item.mccourse.alexandrite_horse_armor": "Alexandritpferdrüstung",
 
   "item.mccourse.metal_detector.no_valuables": "Nichts gefunden!",
   "item.mccourse.metal_detector_valuables": "Hier gibt's was zu holen:",

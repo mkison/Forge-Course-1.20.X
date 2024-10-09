@@ -26,6 +26,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.KOHLRABI);
         simpleItem(ModItems.METAL_DETECTOR);
         simpleItem(ModItems.PEAT_BRICK);
+        simpleItem(ModItems.ALEXANDRITE_HORSE_ARMOR);
 
         handheldItem(ModItems.ALEXANDRITE_SWORD);
         handheldItem(ModItems.ALEXANDRITE_PICKAXE);
@@ -34,6 +35,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.ALEXANDRITE_HOE);
         handheldItem(ModItems.ALEXANDRITE_PAXEL);
         handheldItem(ModItems.ALEXANDRITE_HAMMER);
+
+//        simpleItem(ModItems.ALEXANDRITE_HELMET);
+//        simpleItem(ModItems.ALEXANDRITE_CHESTPLATE);
+//        simpleItem(ModItems.ALEXANDRITE_LEGGINGS);
+//        simpleItem(ModItems.ALEXANDRITE_BOOTS);
 
 
         simpleBlockItem(ModBlocks.ALEXANDRITE_DOOR);
