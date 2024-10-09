@@ -1,6 +1,7 @@
 package net.hehe.mccourse;
 
 import com.mojang.logging.LogUtils;
+import net.hehe.mccourse.enchantment.ModEnchantments;
 import net.hehe.mccourse.modTabs.ModCreativeModeTabs;
 import net.hehe.mccourse.block.ModBlocks;
 import net.hehe.mccourse.item.ModItems;
@@ -27,6 +28,7 @@ public class MCCourseMod {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModCreativeModeTabs.register(modEventBus);
+        ModEnchantments.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
