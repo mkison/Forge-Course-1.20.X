@@ -22,6 +22,9 @@ public class ModItems {
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
             ()-> new MetalDetectorItem(new Item.Properties().durability(512)));
 
+    public static final RegistryObject<Item> DRILL = ITEMS.register("drill",
+            ()-> new DrillItem(new Item.Properties().durability(512)));
+
     public static final RegistryObject<Item> KOHLRABI = ITEMS.register("kohlrabi",
             ()-> new Item(new Item.Properties().food(ModFoodProperties.KOHLRABI).fireResistant()));
 
@@ -29,7 +32,7 @@ public class ModItems {
             ()-> new FuelItem(new Item.Properties(), 200));
 
     public static final RegistryObject<Item> ALEXANDRITE_SWORD = ITEMS.register("alexandrite_sword",
-            ()-> new SlowingSwordItem(ModToolTiers.ALEXANDRITE, 2, 5, new Item.Properties().durability(256)));
+            ()-> new PoisingSwordItem(ModToolTiers.ALEXANDRITE, 2, 5, new Item.Properties().durability(256)));
     public static final RegistryObject<Item> ALEXANDRITE_PICKAXE = ITEMS.register("alexandrite_pickaxe",
             ()-> new PickaxeItem(ModToolTiers.ALEXANDRITE, 0, 10, new Item.Properties().durability(256)));
     public static final RegistryObject<Item> ALEXANDRITE_AXE = ITEMS.register("alexandrite_axe",

@@ -19,10 +19,12 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ALEXANDRITE.get()))
                     .title(Component.translatable("creativetab.course_tab"))
                     .displayItems((displayParameters, output) -> {
+
                         output.accept(ModItems.ALEXANDRITE.get());
                         output.accept(ModItems.RAW_ALEXANDRITE.get());
 
                         output.accept(ModItems.METAL_DETECTOR.get());
+                        output.accept(ModItems.DRILL.get());
                         output.accept(ModItems.KOHLRABI.get());
                         output.accept(ModItems.PEAT_BRICK.get());
 
@@ -47,7 +49,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get());
                         output.accept(ModBlocks.NETHER_ALEXANDRITE_ORE.get());
                         output.accept(ModBlocks.END_STONE_ALEXANDRITE_ORE.get());
-                        output.accept(ModBlocks.SOUND_BLOCK.get());
 
                         output.accept(ModBlocks.ALEXANDRITE_SLAB.get());
                         output.accept(ModBlocks.ALEXANDRITE_STAIRS.get());
@@ -58,6 +59,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ALEXANDRITE_WALL.get());
                         output.accept(ModBlocks.ALEXANDRITE_DOOR.get());
                         output.accept(ModBlocks.ALEXANDRITE_TRAPDOOR.get());
+
+                        output.accept(ModBlocks.SOUND_BLOCK.get());
+                        output.accept(ModBlocks.ALEXANDRITE_LAMP.get());
     }).build());
 
     public static void register(IEventBus eventBus) {

@@ -3,6 +3,7 @@ package net.hehe.mccourse.block;
 
 import net.hehe.mccourse.MCCourseMod;
 
+import net.hehe.mccourse.block.custom.AlexandriteLampBlock;
 import net.hehe.mccourse.block.custom.SoundBlock;
 import net.hehe.mccourse.item.ModItems;
 import net.minecraft.sounds.SoundEvents;
@@ -73,6 +74,10 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> ALEXANDRITE_TRAPDOOR = registerBlock("alexandrite_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.METAL), BlockSetType.IRON));
+
+    public static final RegistryObject<Block> ALEXANDRITE_LAMP = registerBlock("alexandrite_lamp",
+            () -> new AlexandriteLampBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE).sound(SoundType.AMETHYST)
+                    .lightLevel(state -> state.getValue(AlexandriteLampBlock.CLICKED) ? 15 : 0)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

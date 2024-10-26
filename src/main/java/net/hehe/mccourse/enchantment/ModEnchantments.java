@@ -17,6 +17,10 @@ public class ModEnchantments {
             ENCHANTMENTS.register("lightning_striker",
                     () -> new LightningStrikerEnchantment(Enchantment.Rarity.COMMON, EnchantmentCategory.WEAPON, EquipmentSlot.MAINHAND));
 
+    public static final RegistryObject<Enchantment> BOTTLE_BOT =
+            ENCHANTMENTS.register("bottle_bot",
+                    () -> new BottleEnchantment(Enchantment.Rarity.COMMON, EnchantmentCategory.WEAPON, EquipmentSlot.MAINHAND));
+
     public static void register(IEventBus eventBus) {
         ENCHANTMENTS.register(eventBus);
     }

@@ -4,6 +4,7 @@
 
   "item.mccourse.kohlrabi": "Kohlrabi",
   "item.mccourse.metal_detector": "Metalldetektor",
+  "item.mccourse.drill": "Bohrer",
   "item.mccourse.peat_brick": "Torfziegel",
 
   "item.mccourse.alexandrite_sword": "Alexandritschwert",
@@ -46,6 +47,7 @@
   "block.mccourse.alexandrite_trapdoor": "Alexandritfalltür",
 
   "block.mccourse.sound_block": "Geräuschblock",
+  "block.mccourse.alexandrite_lamp": "Alexandritlampe",
 
   "enchantment.mccourse.lightning_striker": "Blitzschlag",
 
