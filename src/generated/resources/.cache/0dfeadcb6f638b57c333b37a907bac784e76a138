@@ -1,4 +1,4 @@
-// 1.20.2	2024-10-22T12:08:38.506176	Item Models: mccourse
+// 1.20.2	2024-11-12T18:30:35.904443	Item Models: mccourse
 71badbc60185c294e740a7e69a688a1a52a23e11 assets/mccourse/models/item/alexandrite.json
 2708264e5c6062ce8fed21db45430ddac33ffa5c assets/mccourse/models/item/alexandrite_axe.json
 cfc705788577468640df77a99d391497448608d0 assets/mccourse/models/item/alexandrite_button.json
@@ -12,8 +12,14 @@ e5ff91a4c82eff3f90e101d271cd2cadd04fdab1 assets/mccourse/models/item/alexandrite
 d7e3fd08979fe3c1c55c99799913461186f0b41b assets/mccourse/models/item/alexandrite_shovel.json
 cc4ab4468ea9d286c8feaf44809a99228b853eb5 assets/mccourse/models/item/alexandrite_sword.json
 38463792de822a6f202140dd5282e260ad9f6ac4 assets/mccourse/models/item/alexandrite_wall.json
+121d422682ea12728c4e1dbe5e1224b1567f9426 assets/mccourse/models/item/chunk_miner.json
 1ce5473e556e2fac59f7f9aa329d7e9f0dfe2dd0 assets/mccourse/models/item/drill.json
+832b75b32b0c2164b62b7be5e1f33d5832305bf8 assets/mccourse/models/item/east_miner.json
 6349d1adee80001ce5a46b787665a782e5c25798 assets/mccourse/models/item/kohlrabi.json
+39b609a6c230f85321604bec3c0fbf1976247e24 assets/mccourse/models/item/kohlrabi_seeds.json
 23f99234f647aa805541635819a0a2a8b1552d81 assets/mccourse/models/item/metal_detector.json
+3a9a08146446756a5544a185af07990136c5fb06 assets/mccourse/models/item/north_miner.json
 69f14bc527b8fd908153ba18e4c2e2a0b027fa4f assets/mccourse/models/item/peat_brick.json
 d890745bc92e5639d4db062935218a0ef60c01fa assets/mccourse/models/item/raw_alexandrite.json
+9c8ac11963012f35d75705901788c2c48bca39d5 assets/mccourse/models/item/south_miner.json
+8cd0d4145e66de5777c0d2bf4b2d1b79d25007a9 assets/mccourse/models/item/west_miner.json

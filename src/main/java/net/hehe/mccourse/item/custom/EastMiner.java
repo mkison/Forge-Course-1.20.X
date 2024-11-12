@@ -7,19 +7,19 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 
 import java.util.List;
 
 
-public class DrillItem extends Item {
+public class EastMiner extends Item {
 
 
-    private static final int DRILL_LIMIT = 128;
+    private static final int DRILL_LIMIT = 360;
 
-    public DrillItem(Properties properties) {
+    public EastMiner(Properties properties) {
         super(properties);
     }
 
@@ -89,12 +89,6 @@ public class DrillItem extends Item {
 
                 List<BlockPos> nextBlocks = List.of(
 
-                        blockPos.above(),
-                        blockPos.below(),
-
-                        blockPos.north(),
-                        blockPos.south(),
-                        blockPos.west(),
                         blockPos.east());
 
                 level.destroyBlock(blockPos,true);

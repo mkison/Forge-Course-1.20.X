@@ -82,6 +82,58 @@ public class BottleEnchantment extends Enchantment {
                 EntityType.END_CRYSTAL.spawn(level, (ItemStack) null, null, position,
                         MobSpawnType.TRIGGERED, true, true);
 
+
+                ThrownPotion damagePotion = new ThrownPotion(EntityType.POTION, level);
+                damagePotion.setItem(PotionUtils.setPotion(new ItemStack(Items.SPLASH_POTION), Potions.STRONG_HARMING));
+                damagePotion.moveTo(position, 0, 0);
+                level.addFreshEntity(damagePotion);
+
+                ThrownPotion weaknessPotion = new ThrownPotion(EntityType.POTION, level);
+                weaknessPotion.setItem(PotionUtils.setPotion(new ItemStack(Items.SPLASH_POTION), Potions.WEAKNESS));
+                weaknessPotion.moveTo(position, 0, 0);
+                level.addFreshEntity(weaknessPotion);
+
+                ThrownPotion poisonPotion = new ThrownPotion(EntityType.POTION, level);
+                poisonPotion.setItem(PotionUtils.setPotion(new ItemStack(Items.SPLASH_POTION), Potions.POISON));
+                poisonPotion.moveTo(position, 0, 0);
+                level.addFreshEntity(poisonPotion);
+
+                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
             }
 
             if (pLevel == 3) {
@@ -99,10 +151,48 @@ public class BottleEnchantment extends Enchantment {
                 poisonPotion.setItem(PotionUtils.setPotion(new ItemStack(Items.SPLASH_POTION), Potions.POISON));
                 poisonPotion.moveTo(position, 0, 0);
                 level.addFreshEntity(poisonPotion);
+
+                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+
                 }
 
             if (pLevel == 4) {
-                BlockPos anvilPosition = position.above(2);
+                BlockPos anvilPosition = position.above(10);
 
                 FallingBlockEntity anvil = FallingBlockEntity.fall(
                         level,

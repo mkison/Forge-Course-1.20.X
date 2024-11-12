@@ -2,10 +2,12 @@ package net.hehe.mccourse;
 
 import com.mojang.logging.LogUtils;
 import net.hehe.mccourse.enchantment.ModEnchantments;
+import net.hehe.mccourse.item.custom.ModItemProperties;
 import net.hehe.mccourse.modTabs.ModCreativeModeTabs;
 import net.hehe.mccourse.block.ModBlocks;
 import net.hehe.mccourse.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.level.block.ComposterBlock;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -40,6 +42,10 @@ public class MCCourseMod {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
+        event.enqueueWork(() -> {
+            ComposterBlock.COMPOSTABLES.put(ModItems.KOHLRABI.get(), 0.40f);
+            ComposterBlock.COMPOSTABLES.put(ModItems.KOHLRABI_SEEDS.get(), 0.35f);
+        });
 
     }
 
@@ -67,7 +73,9 @@ public class MCCourseMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            event.enqueueWork(() -> {
+                ModItemProperties.addCustomItemProperties();
+            });
         }
     }
 }

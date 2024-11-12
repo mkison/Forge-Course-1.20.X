@@ -24,8 +24,15 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_ALEXANDRITE.get());
 
                         output.accept(ModItems.METAL_DETECTOR.get());
+                        output.accept(ModItems.DATA_TABLET.get());
                         output.accept(ModItems.DRILL.get());
+                        output.accept(ModItems.CHUNK_MINER.get());
+                        output.accept(ModItems.WEST_MINER.get());
+                        output.accept(ModItems.EAST_MINER.get());
+                        output.accept(ModItems.NORTH_MINER.get());
+                        output.accept(ModItems.SOUTH_MINER.get());
                         output.accept(ModItems.KOHLRABI.get());
+                        output.accept(ModItems.KOHLRABI_SEEDS.get());
                         output.accept(ModItems.PEAT_BRICK.get());
 
                         output.accept(ModItems.ALEXANDRITE_SWORD.get());

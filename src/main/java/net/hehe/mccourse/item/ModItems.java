@@ -1,6 +1,7 @@
 package net.hehe.mccourse.item;
 
 import net.hehe.mccourse.MCCourseMod;
+import net.hehe.mccourse.block.ModBlocks;
 import net.hehe.mccourse.item.custom.*;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
@@ -22,23 +23,51 @@ public class ModItems {
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
             ()-> new MetalDetectorItem(new Item.Properties().durability(512)));
 
+    public static final RegistryObject<Item> DATA_TABLET = ITEMS.register("data_tablet",
+            ()-> new DataTabletItem(new Item.Properties().stacksTo(1)));
+
     public static final RegistryObject<Item> DRILL = ITEMS.register("drill",
             ()-> new DrillItem(new Item.Properties().durability(512)));
+
+    public static final RegistryObject<Item> CHUNK_MINER = ITEMS.register("chunk_miner",
+            ()-> new ChunkMiner(new Item.Properties().durability(100000)));
+
+    public static final RegistryObject<Item> WEST_MINER = ITEMS.register("west_miner",
+            ()-> new WestMiner(new Item.Properties().durability(100000)));
+
+    public static final RegistryObject<Item> EAST_MINER = ITEMS.register("east_miner",
+            ()-> new EastMiner(new Item.Properties().durability(100000)));
+
+    public static final RegistryObject<Item> NORTH_MINER = ITEMS.register("north_miner",
+            ()-> new NorthMiner(new Item.Properties().durability(100000)));
+
+    public static final RegistryObject<Item> SOUTH_MINER = ITEMS.register("south_miner",
+            ()-> new SouthMiner(new Item.Properties().durability(100000)));
 
     public static final RegistryObject<Item> KOHLRABI = ITEMS.register("kohlrabi",
             ()-> new Item(new Item.Properties().food(ModFoodProperties.KOHLRABI).fireResistant()));
 
+    public static final RegistryObject<Item> KOHLRABI_SEEDS = ITEMS.register("kohlrabi_seeds",
+            ()-> new ItemNameBlockItem(ModBlocks.KOHLRABI_CROP.get(), new  Item.Properties()));
+
+
+
     public static final RegistryObject<Item> PEAT_BRICK = ITEMS.register("peat_brick",
             ()-> new FuelItem(new Item.Properties(), 200));
 
+
     public static final RegistryObject<Item> ALEXANDRITE_SWORD = ITEMS.register("alexandrite_sword",
             ()-> new PoisingSwordItem(ModToolTiers.ALEXANDRITE, 2, 5, new Item.Properties().durability(256)));
+
     public static final RegistryObject<Item> ALEXANDRITE_PICKAXE = ITEMS.register("alexandrite_pickaxe",
             ()-> new PickaxeItem(ModToolTiers.ALEXANDRITE, 0, 10, new Item.Properties().durability(256)));
+
     public static final RegistryObject<Item> ALEXANDRITE_AXE = ITEMS.register("alexandrite_axe",
             ()-> new AxeItem(ModToolTiers.ALEXANDRITE, 3, 10, new Item.Properties().durability(256)));
+
     public static final RegistryObject<Item> ALEXANDRITE_SHOVEL = ITEMS.register("alexandrite_shovel",
             ()-> new ShovelItem(ModToolTiers.ALEXANDRITE, -1, 10, new Item.Properties().durability(256)));
+
     public static final RegistryObject<Item> ALEXANDRITE_HOE = ITEMS.register("alexandrite_hoe",
             ()-> new HoeItem(ModToolTiers.ALEXANDRITE, -3, 10, new Item.Properties().durability(256)));
 
@@ -47,6 +76,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> ALEXANDRITE_HAMMER = ITEMS.register("alexandrite_hammer",
             ()-> new HammerItem(ModToolTiers.ALEXANDRITE, -3, 10, new Item.Properties().durability(256)));
+
+
 
     public static final RegistryObject<Item> ALEXANDRITE_HELMET = ITEMS.register("alexandrite_helmet",
             ()-> new ModArmorItem(ModArmorMaterials.ALEXANDRITE, ArmorItem.Type.HELMET, new Item.Properties()));
