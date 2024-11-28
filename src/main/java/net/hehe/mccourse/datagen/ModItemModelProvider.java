@@ -51,6 +51,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
 
         simpleBlockItem(ModBlocks.ALEXANDRITE_DOOR);
+        simpleBlockItem(ModBlocks.SNAPDRAGON);
 
         buttonItem(ModBlocks.ALEXANDRITE_BUTTON, ModBlocks.ALEXANDRITE_BLOCK);
         fenceItem(ModBlocks.ALEXANDRITE_FENCE, ModBlocks.ALEXANDRITE_BLOCK);

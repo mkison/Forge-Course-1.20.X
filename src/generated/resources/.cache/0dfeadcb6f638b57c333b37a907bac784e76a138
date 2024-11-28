@@ -1,4 +1,4 @@
-// 1.20.2	2024-11-12T18:30:35.904443	Item Models: mccourse
+// 1.20.2	2024-11-28T16:27:11.38627	Item Models: mccourse
 71badbc60185c294e740a7e69a688a1a52a23e11 assets/mccourse/models/item/alexandrite.json
 2708264e5c6062ce8fed21db45430ddac33ffa5c assets/mccourse/models/item/alexandrite_axe.json
 cfc705788577468640df77a99d391497448608d0 assets/mccourse/models/item/alexandrite_button.json
@@ -21,5 +21,6 @@ cc4ab4468ea9d286c8feaf44809a99228b853eb5 assets/mccourse/models/item/alexandrite
 3a9a08146446756a5544a185af07990136c5fb06 assets/mccourse/models/item/north_miner.json
 69f14bc527b8fd908153ba18e4c2e2a0b027fa4f assets/mccourse/models/item/peat_brick.json
 d890745bc92e5639d4db062935218a0ef60c01fa assets/mccourse/models/item/raw_alexandrite.json
+0981f1d23408e1a7285dc9417be5d8c98dedf614 assets/mccourse/models/item/snapdragon.json
 9c8ac11963012f35d75705901788c2c48bca39d5 assets/mccourse/models/item/south_miner.json
 8cd0d4145e66de5777c0d2bf4b2d1b79d25007a9 assets/mccourse/models/item/west_miner.json

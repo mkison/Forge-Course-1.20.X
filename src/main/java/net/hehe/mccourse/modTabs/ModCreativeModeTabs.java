@@ -35,6 +35,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.KOHLRABI_SEEDS.get());
                         output.accept(ModItems.PEAT_BRICK.get());
 
+                        output.accept(ModBlocks.SNAPDRAGON.get());
+
                         output.accept(ModItems.ALEXANDRITE_SWORD.get());
                         output.accept(ModItems.ALEXANDRITE_PICKAXE.get());
                         output.accept(ModItems.ALEXANDRITE_AXE.get());

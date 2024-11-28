@@ -26,40 +26,22 @@ public class BottleEnchantment extends Enchantment {
             BlockPos position = pTarget.blockPosition();
 
             if (pLevel == 1) {
-                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                EntityType.EVOKER_FANGS.spawn(level, (ItemStack) null, null, position,
                         MobSpawnType.TRIGGERED, true, true);
 
-                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                EntityType.EVOKER_FANGS.spawn(level, (ItemStack) null, null, position,
                         MobSpawnType.TRIGGERED, true, true);
 
-                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                EntityType.EVOKER_FANGS.spawn(level, (ItemStack) null, null, position,
                         MobSpawnType.TRIGGERED, true, true);
 
-                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                EntityType.EVOKER_FANGS.spawn(level, (ItemStack) null, null, position,
                         MobSpawnType.TRIGGERED, true, true);
 
-                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                EntityType.EVOKER_FANGS.spawn(level, (ItemStack) null, null, position,
                         MobSpawnType.TRIGGERED, true, true);
 
-                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
-                        MobSpawnType.TRIGGERED, true, true);
-
-                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
-                        MobSpawnType.TRIGGERED, true, true);
-
-                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
-                        MobSpawnType.TRIGGERED, true, true);
-
-                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
-                        MobSpawnType.TRIGGERED, true, true);
-
-                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
-                        MobSpawnType.TRIGGERED, true, true);
-
-                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
-                        MobSpawnType.TRIGGERED, true, true);
-
-                EntityType.LIGHTNING_BOLT.spawn(level, (ItemStack) null, null, position,
+                EntityType.TNT_MINECART.spawn(level, (ItemStack) null, null, position,
                         MobSpawnType.TRIGGERED, true, true);
 
 
@@ -202,11 +184,42 @@ public class BottleEnchantment extends Enchantment {
 
                 level.addFreshEntity(anvil);
             }
+
+            if (pLevel == 5) {
+
+                EntityType.TNT_MINECART.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT_MINECART.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT_MINECART.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT_MINECART.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT_MINECART.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT_MINECART.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT_MINECART.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT_MINECART.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+                EntityType.TNT_MINECART.spawn(level, (ItemStack) null, null, position,
+                        MobSpawnType.TRIGGERED, true, true);
+
+            }
         }
     }
 
     @Override
     public int getMaxLevel() {
-        return 4;
+        return 5;
     }
 }

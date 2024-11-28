@@ -52,6 +52,7 @@ public class ModItems {
 
 
 
+
     public static final RegistryObject<Item> PEAT_BRICK = ITEMS.register("peat_brick",
             ()-> new FuelItem(new Item.Properties(), 200));
 

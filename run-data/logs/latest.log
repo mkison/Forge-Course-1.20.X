@@ -1,32 +1,32 @@
-[12Nov.2024 18:30:32.227] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 8, --assetsDir, /Users/lando/.gradle/caches/forge_gradle/assets, --gameDir, ., --fml.forgeVersion, 48.1.0, --fml.mcVersion, 1.20.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230921.100330, --mod, mccourse, --all, --output, /Users/lando/Documents/ForgeMod/src/generated/resources, --existing, /Users/lando/Documents/ForgeMod/src/main/resources]
-[12Nov.2024 18:30:32.228] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 17.0.12+7
-[12Nov.2024 18:30:32.229] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.1.1 starting: java version 17.0.12 by Eclipse Adoptium; OS Mac OS X arch aarch64 version 15.0.1
-[12Nov.2024 18:30:32.275] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
-[12Nov.2024 18:30:32.301] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/Users/lando/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23120!/ Service=ModLauncher Env=UNKNOWN
-[12Nov.2024 18:30:32.469] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/lando/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.20.2-48.1.0/7a8d252b70bac3cde4ec0e82bd816fe0212551d/fmlcore-1.20.2-48.1.0.jar is missing mods.toml file
-[12Nov.2024 18:30:32.470] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/lando/.gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.20.2-48.1.0/d034c6f69f1f1cf324bdd7bbc66896e67990bbef/javafmllanguage-1.20.2-48.1.0.jar is missing mods.toml file
-[12Nov.2024 18:30:32.471] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/lando/.gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.20.2-48.1.0/ac35e86aee5633ea200ae1607b4ca48b24cd845/lowcodelanguage-1.20.2-48.1.0.jar is missing mods.toml file
-[12Nov.2024 18:30:32.471] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/lando/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.20.2-48.1.0/7ddb9ee7a72eb906db86ca9490f35be1789c2813/mclanguage-1.20.2-48.1.0.jar is missing mods.toml file
-[12Nov.2024 18:30:32.506] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[12Nov.2024 18:30:33.219] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, /Users/lando/.gradle/caches/forge_gradle/assets, --assetIndex, 8, --mod, mccourse, --all, --output, /Users/lando/Documents/ForgeMod/src/generated/resources, --existing, /Users/lando/Documents/ForgeMod/src/main/resources]
-[12Nov.2024 18:30:35.464] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 48.1.0, for MC 1.20.2 with MCP 20230921.100330
-[12Nov.2024 18:30:35.465] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v48.1.0 Initialized
-[12Nov.2024 18:30:35.653] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [mccourse]
-[12Nov.2024 18:30:35.677] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/lando/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.2-48.1.0_mapped_parchment_1.20.2-2023.12.10-1.20.2/forge-1.20.2-48.1.0_mapped_parchment_1.20.2-2023.12.10-1.20.2.jar%23181!/assets/.mcassetsroot' uses unexpected schema
-[12Nov.2024 18:30:35.677] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/lando/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.2-48.1.0_mapped_parchment_1.20.2-2023.12.10-1.20.2/forge-1.20.2-48.1.0_mapped_parchment_1.20.2-2023.12.10-1.20.2.jar%23181!/data/.mcassetsroot' uses unexpected schema
-[12Nov.2024 18:30:35.704] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace .DS_Store in pack /Users/lando/Documents/ForgeMod/src/main/resources, ignoring
-[12Nov.2024 18:30:35.709] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace .DS_Store in pack /Users/lando/Documents/ForgeMod/src/main/resources, ignoring
-[12Nov.2024 18:30:35.745] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[12Nov.2024 18:30:35.767] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 21 ms
-[12Nov.2024 18:30:35.767] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[12Nov.2024 18:30:35.783] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 15 ms
-[12Nov.2024 18:30:35.783] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block Tags
-[12Nov.2024 18:30:35.849] [main/INFO] [net.minecraft.data.DataGenerator/]: Block Tags finished after 66 ms
-[12Nov.2024 18:30:35.849] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Tags
-[12Nov.2024 18:30:35.850] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Tags finished after 0 ms
-[12Nov.2024 18:30:35.850] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: mccourse
-[12Nov.2024 18:30:35.856] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: mccourse finished after 5 ms
-[12Nov.2024 18:30:35.856] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: mccourse
-[12Nov.2024 18:30:35.903] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: mccourse finished after 46 ms
-[12Nov.2024 18:30:35.903] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 158 ms
-[12Nov.2024 18:30:35.908] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 160, old count: 155, new count: 161, removed stale: 0, written: 5
+[28Nov.2024 16:27:07.485] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 8, --assetsDir, /Users/lando/.gradle/caches/forge_gradle/assets, --gameDir, ., --fml.forgeVersion, 48.1.0, --fml.mcVersion, 1.20.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230921.100330, --mod, mccourse, --all, --output, /Users/lando/Documents/ForgeMod/src/generated/resources, --existing, /Users/lando/Documents/ForgeMod/src/main/resources]
+[28Nov.2024 16:27:07.487] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 17.0.12+7
+[28Nov.2024 16:27:07.488] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.1.1 starting: java version 17.0.12 by Eclipse Adoptium; OS Mac OS X arch aarch64 version 15.1.1
+[28Nov.2024 16:27:07.542] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[28Nov.2024 16:27:07.573] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/Users/lando/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23120!/ Service=ModLauncher Env=UNKNOWN
+[28Nov.2024 16:27:07.747] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/lando/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.20.2-48.1.0/7a8d252b70bac3cde4ec0e82bd816fe0212551d/fmlcore-1.20.2-48.1.0.jar is missing mods.toml file
+[28Nov.2024 16:27:07.748] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/lando/.gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.20.2-48.1.0/d034c6f69f1f1cf324bdd7bbc66896e67990bbef/javafmllanguage-1.20.2-48.1.0.jar is missing mods.toml file
+[28Nov.2024 16:27:07.748] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/lando/.gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.20.2-48.1.0/ac35e86aee5633ea200ae1607b4ca48b24cd845/lowcodelanguage-1.20.2-48.1.0.jar is missing mods.toml file
+[28Nov.2024 16:27:07.749] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/lando/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.20.2-48.1.0/7ddb9ee7a72eb906db86ca9490f35be1789c2813/mclanguage-1.20.2-48.1.0.jar is missing mods.toml file
+[28Nov.2024 16:27:07.780] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[28Nov.2024 16:27:08.402] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, /Users/lando/.gradle/caches/forge_gradle/assets, --assetIndex, 8, --mod, mccourse, --all, --output, /Users/lando/Documents/ForgeMod/src/generated/resources, --existing, /Users/lando/Documents/ForgeMod/src/main/resources]
+[28Nov.2024 16:27:10.878] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 48.1.0, for MC 1.20.2 with MCP 20230921.100330
+[28Nov.2024 16:27:10.879] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v48.1.0 Initialized
+[28Nov.2024 16:27:11.074] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [mccourse]
+[28Nov.2024 16:27:11.106] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/lando/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.2-48.1.0_mapped_parchment_1.20.2-2023.12.10-1.20.2/forge-1.20.2-48.1.0_mapped_parchment_1.20.2-2023.12.10-1.20.2.jar%23181!/assets/.mcassetsroot' uses unexpected schema
+[28Nov.2024 16:27:11.106] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/lando/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.2-48.1.0_mapped_parchment_1.20.2-2023.12.10-1.20.2/forge-1.20.2-48.1.0_mapped_parchment_1.20.2-2023.12.10-1.20.2.jar%23181!/data/.mcassetsroot' uses unexpected schema
+[28Nov.2024 16:27:11.113] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace .DS_Store in pack /Users/lando/Documents/ForgeMod/src/main/resources, ignoring
+[28Nov.2024 16:27:11.120] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace .DS_Store in pack /Users/lando/Documents/ForgeMod/src/main/resources, ignoring
+[28Nov.2024 16:27:11.180] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[28Nov.2024 16:27:11.222] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 41 ms
+[28Nov.2024 16:27:11.222] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[28Nov.2024 16:27:11.258] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 35 ms
+[28Nov.2024 16:27:11.259] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block Tags
+[28Nov.2024 16:27:11.318] [main/INFO] [net.minecraft.data.DataGenerator/]: Block Tags finished after 59 ms
+[28Nov.2024 16:27:11.318] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Tags
+[28Nov.2024 16:27:11.319] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Tags finished after 0 ms
+[28Nov.2024 16:27:11.319] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: mccourse
+[28Nov.2024 16:27:11.324] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: mccourse finished after 5 ms
+[28Nov.2024 16:27:11.324] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: mccourse
+[28Nov.2024 16:27:11.385] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: mccourse finished after 60 ms
+[28Nov.2024 16:27:11.385] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 205 ms
+[28Nov.2024 16:27:11.391] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 165, old count: 165, new count: 166, removed stale: 0, written: 1
