@@ -60,5 +60,44 @@
 
   "enchantment.mccourse.lightning_striker": "Lightning Striker",
 
-  "creativetab.course_tab": "Course Tab"
+  "sound.mccourse.metal_detector_found_ore": "Metal Detector found an Ore",
+
+  "creativetab.course_tab": "Course Tab",
+  "creativetab.block_variants_tab": "Block Variants",
+
+
+  "block.mccourse.white_glazed_terracotta_slab": "White Glazed Terracotta Slab",
+  "block.mccourse.orange_glazed_terracotta_slab": "Orange Glazed Terracotta Slab",
+  "block.mccourse.magenta_glazed_terracotta_slab": "Magenta Glazed Terracotta Slab",
+  "block.mccourse.light_blue_glazed_terracotta_slab": "White Glazed Terracotta Slab",
+  "block.mccourse.yellow_glazed_terracotta_slab": "Yellow Glazed Terracotta Slab",
+  "block.mccourse.lime_glazed_terracotta_slab": "Lime Glazed Terracotta Slab",
+  "block.mccourse.pink_glazed_terracotta_slab": "Pink Glazed Terracotta Slab",
+  "block.mccourse.gray_glazed_terracotta_slab": "Gray Glazed Terracotta Slab",
+  "block.mccourse.light_gray_glazed_terracotta_slab": "Light Gray Glazed Terracotta Slab",
+  "block.mccourse.cyan_glazed_terracotta_slab": "Cyan Glazed Terracotta Slab",
+  "block.mccourse.purple_glazed_terracotta_slab": "Purple Glazed Terracotta Slab",
+  "block.mccourse.blue_glazed_terracotta_slab": "Blue Glazed Terracotta Slab",
+  "block.mccourse.brown_glazed_terracotta_slab": "Brown Glazed Terracotta Slab",
+  "block.mccourse.green_glazed_terracotta_slab": "Green Glazed Terracotta Slab",
+  "block.mccourse.red_glazed_terracotta_slab": "Red Glazed Terracotta Slab",
+  "block.mccourse.black_glazed_terracotta_slab": "Black Glazed Terracotta Slab",
+
+  "block.mccourse.white_glazed_terracotta_stairs": "White Glazed Terracotta Stairs",
+  "block.mccourse.orange_glazed_terracotta_stairs": "Orange Glazed Terracotta Stairs",
+  "block.mccourse.magenta_glazed_terracotta_stairs": "Magenta Glazed Terracotta Stairs",
+  "block.mccourse.light_blue_glazed_terracotta_stairs": "Light Blue Glazed Terracotta Stairs",
+  "block.mccourse.yellow_glazed_terracotta_stairs": "Yellow Glazed Terracotta Stairs",
+  "block.mccourse.lime_glazed_terracotta_stairs": "Lime Glazed Terracotta Stairs",
+  "block.mccourse.pink_glazed_terracotta_stairs": "Pink Glazed Terracotta Stairs",
+  "block.mccourse.gray_glazed_terracotta_stairs": "Gray Glazed Terracotta Stairs",
+  "block.mccourse.light_gray_glazed_terracotta_stairs": "Light Gray Glazed Terracotta Stairs",
+  "block.mccourse.cyan_glazed_terracotta_stairs": "Cyan Glazed Terracotta Stairs",
+  "block.mccourse.purple_glazed_terracotta_stairs": "Purple Glazed Terracotta Stairs",
+  "block.mccourse.blue_glazed_terracotta_stairs": "Blue Glazed Terracotta Stairs",
+  "block.mccourse.brown_glazed_terracotta_stairs": "Brown Glazed Terracotta Stairs",
+  "block.mccourse.green_glazed_terracotta_stairs": "Green Glazed Terracotta Stairs",
+  "block.mccourse.red_glazed_terracotta_stairs": "Red Glazed Terracotta Stairs",
+  "block.mccourse.black_glazed_terracotta_stairs": "Black Glazed Terracotta Stairs"
+
 }

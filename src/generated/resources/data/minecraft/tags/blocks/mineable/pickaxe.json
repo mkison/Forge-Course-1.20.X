@@ -15,6 +15,22 @@
     "mccourse:alexandrite_fence_gate",
     "mccourse:alexandrite_wall",
     "mccourse:alexandrite_door",
-    "mccourse:alexandrite_trapdoor"
+    "mccourse:alexandrite_trapdoor",
+    "mccourse:white_glazed_terracotta_slab",
+    "mccourse:orange_glazed_terracotta_slab",
+    "mccourse:magenta_glazed_terracotta_slab",
+    "mccourse:light_blue_glazed_terracotta_slab",
+    "mccourse:yellow_glazed_terracotta_slab",
+    "mccourse:lime_glazed_terracotta_slab",
+    "mccourse:pink_glazed_terracotta_slab",
+    "mccourse:gray_glazed_terracotta_slab",
+    "mccourse:light_gray_glazed_terracotta_slab",
+    "mccourse:cyan_glazed_terracotta_slab",
+    "mccourse:purple_glazed_terracotta_slab",
+    "mccourse:blue_glazed_terracotta_slab",
+    "mccourse:brown_glazed_terracotta_slab",
+    "mccourse:green_glazed_terracotta_slab",
+    "mccourse:red_glazed_terracotta_slab",
+    "mccourse:black_glazed_terracotta_slab"
   ]
 }

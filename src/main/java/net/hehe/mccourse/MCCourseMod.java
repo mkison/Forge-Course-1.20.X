@@ -3,9 +3,11 @@ package net.hehe.mccourse;
 import com.mojang.logging.LogUtils;
 import net.hehe.mccourse.enchantment.ModEnchantments;
 import net.hehe.mccourse.item.custom.ModItemProperties;
-import net.hehe.mccourse.modTabs.ModCreativeModeTabs;
+import net.hehe.mccourse.modTabs.BlockVariantsTab;
+import net.hehe.mccourse.modTabs.CourseTab;
 import net.hehe.mccourse.block.ModBlocks;
 import net.hehe.mccourse.item.ModItems;
+import net.hehe.mccourse.sound.ModSounds;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.ComposterBlock;
@@ -31,8 +33,11 @@ public class MCCourseMod {
     public MCCourseMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModCreativeModeTabs.register(modEventBus);
+        CourseTab.register(modEventBus);
+        BlockVariantsTab.register(modEventBus);
+
         ModEnchantments.register(modEventBus);
+        ModSounds.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);

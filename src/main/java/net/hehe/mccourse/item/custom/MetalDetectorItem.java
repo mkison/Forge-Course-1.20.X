@@ -1,5 +1,6 @@
 package net.hehe.mccourse.item.custom;
 
+import net.hehe.mccourse.sound.ModSounds;
 import net.hehe.mccourse.util.InventoryUtil;
 import net.hehe.mccourse.util.ModTags;
 import net.minecraft.client.gui.screens.Screen;
@@ -7,6 +8,7 @@ import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
@@ -39,6 +41,10 @@ public class MetalDetectorItem extends Item {
                 if(isValuableBlock(blockState)) {
                     outputValuableCoordinates(positionClicked.below(i), player, blockState.getBlock());
                     foundBlock = true;
+
+                    pContext.getLevel().playSeededSound(null, player.getX(), player.getY(), player.getZ(),
+                            ModSounds.METAL_DETECTOR_FOUND_ORE.get(), SoundSource.PLAYERS, 1f, 1f, 0);
+
 
                     if (InventoryUtil.hasPlayerStackInInventory(player, ModItems.DATA_TABLET.get())) {
                         addDataToDataTablet(player, positionClicked.below(i), blockState.getBlock());

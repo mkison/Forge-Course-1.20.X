@@ -61,6 +61,92 @@ public class ModBlockStateProvider extends BlockStateProvider {
                 models().cross(blockTexture(ModBlocks.SNAPDRAGON.get()).getPath(), blockTexture(ModBlocks.SNAPDRAGON.get())).renderType("cutout"));
 
 
+        slabBlock(((SlabBlock) ModBlocks.WHITE_GLAZED_TERRACOTTA_SLAB.get()), blockTexture(Blocks.WHITE_GLAZED_TERRACOTTA), blockTexture(Blocks.WHITE_GLAZED_TERRACOTTA));
+        slabBlock(((SlabBlock) ModBlocks.ORANGE_GLAZED_TERRACOTTA_SLAB.get()), blockTexture(Blocks.ORANGE_GLAZED_TERRACOTTA), blockTexture(Blocks.ORANGE_GLAZED_TERRACOTTA));
+        slabBlock(((SlabBlock) ModBlocks.MAGENTA_GLAZED_TERRACOTTA_SLAB.get()), blockTexture(Blocks.MAGENTA_GLAZED_TERRACOTTA), blockTexture(Blocks.MAGENTA_GLAZED_TERRACOTTA));
+        slabBlock(((SlabBlock) ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_SLAB.get()), blockTexture(Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA), blockTexture(Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA));
+        slabBlock(((SlabBlock) ModBlocks.YELLOW_GLAZED_TERRACOTTA_SLAB.get()), blockTexture(Blocks.YELLOW_GLAZED_TERRACOTTA), blockTexture(Blocks.YELLOW_GLAZED_TERRACOTTA));
+        slabBlock(((SlabBlock) ModBlocks.LIME_GLAZED_TERRACOTTA_SLAB.get()), blockTexture(Blocks.LIME_GLAZED_TERRACOTTA), blockTexture(Blocks.LIME_GLAZED_TERRACOTTA));
+        slabBlock(((SlabBlock) ModBlocks.PINK_GLAZED_TERRACOTTA_SLAB.get()), blockTexture(Blocks.PINK_GLAZED_TERRACOTTA), blockTexture(Blocks.PINK_GLAZED_TERRACOTTA));
+        slabBlock(((SlabBlock) ModBlocks.GRAY_GLAZED_TERRACOTTA_SLAB.get()), blockTexture(Blocks.GRAY_GLAZED_TERRACOTTA), blockTexture(Blocks.GRAY_GLAZED_TERRACOTTA));
+        slabBlock(((SlabBlock) ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_SLAB.get()), blockTexture(Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA), blockTexture(Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA));
+        slabBlock(((SlabBlock) ModBlocks.CYAN_GLAZED_TERRACOTTA_SLAB.get()), blockTexture(Blocks.CYAN_GLAZED_TERRACOTTA), blockTexture(Blocks.CYAN_GLAZED_TERRACOTTA));
+        slabBlock(((SlabBlock) ModBlocks.PURPLE_GLAZED_TERRACOTTA_SLAB.get()), blockTexture(Blocks.PURPLE_GLAZED_TERRACOTTA), blockTexture(Blocks.PURPLE_GLAZED_TERRACOTTA));
+        slabBlock(((SlabBlock) ModBlocks.BLUE_GLAZED_TERRACOTTA_SLAB.get()), blockTexture(Blocks.BLUE_GLAZED_TERRACOTTA), blockTexture(Blocks.BLUE_GLAZED_TERRACOTTA));
+        slabBlock(((SlabBlock) ModBlocks.BROWN_GLAZED_TERRACOTTA_SLAB.get()), blockTexture(Blocks.BROWN_GLAZED_TERRACOTTA), blockTexture(Blocks.BROWN_GLAZED_TERRACOTTA));
+        slabBlock(((SlabBlock) ModBlocks.GREEN_GLAZED_TERRACOTTA_SLAB.get()), blockTexture(Blocks.GREEN_GLAZED_TERRACOTTA), blockTexture(Blocks.GREEN_GLAZED_TERRACOTTA));
+        slabBlock(((SlabBlock) ModBlocks.RED_GLAZED_TERRACOTTA_SLAB.get()), blockTexture(Blocks.RED_GLAZED_TERRACOTTA), blockTexture(Blocks.RED_GLAZED_TERRACOTTA));
+        slabBlock(((SlabBlock) ModBlocks.BLACK_GLAZED_TERRACOTTA_SLAB.get()), blockTexture(Blocks.BLACK_GLAZED_TERRACOTTA), blockTexture(Blocks.BLACK_GLAZED_TERRACOTTA));
+
+
+        blockItem(ModBlocks.WHITE_GLAZED_TERRACOTTA_SLAB);
+        blockItem(ModBlocks.ORANGE_GLAZED_TERRACOTTA_SLAB);
+        blockItem(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_SLAB);
+        blockItem(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_SLAB);
+        blockItem(ModBlocks.YELLOW_GLAZED_TERRACOTTA_SLAB);
+        blockItem(ModBlocks.LIME_GLAZED_TERRACOTTA_SLAB);
+        blockItem(ModBlocks.PINK_GLAZED_TERRACOTTA_SLAB);
+        blockItem(ModBlocks.GRAY_GLAZED_TERRACOTTA_SLAB);
+        blockItem(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_SLAB);
+        blockItem(ModBlocks.CYAN_GLAZED_TERRACOTTA_SLAB);
+        blockItem(ModBlocks.PURPLE_GLAZED_TERRACOTTA_SLAB);
+        blockItem(ModBlocks.BLUE_GLAZED_TERRACOTTA_SLAB);
+        blockItem(ModBlocks.BROWN_GLAZED_TERRACOTTA_SLAB);
+        blockItem(ModBlocks.GREEN_GLAZED_TERRACOTTA_SLAB);
+        blockItem(ModBlocks.RED_GLAZED_TERRACOTTA_SLAB);
+        blockItem(ModBlocks.BLACK_GLAZED_TERRACOTTA_SLAB);
+
+        stairsBlock((StairBlock) ModBlocks.WHITE_GLAZED_TERRACOTTA_STAIRS.get(), blockTexture(Blocks.WHITE_GLAZED_TERRACOTTA));
+        stairsBlock((StairBlock) ModBlocks.ORANGE_GLAZED_TERRACOTTA_STAIRS.get(), blockTexture(Blocks.ORANGE_GLAZED_TERRACOTTA));
+        stairsBlock((StairBlock) ModBlocks.MAGENTA_GLAZED_TERRACOTTA_STAIRS.get(), blockTexture(Blocks.MAGENTA_GLAZED_TERRACOTTA));
+        stairsBlock((StairBlock) ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_STAIRS.get(), blockTexture(Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA));
+        stairsBlock((StairBlock) ModBlocks.YELLOW_GLAZED_TERRACOTTA_STAIRS.get(), blockTexture(Blocks.YELLOW_GLAZED_TERRACOTTA));
+        stairsBlock((StairBlock) ModBlocks.LIME_GLAZED_TERRACOTTA_STAIRS.get(), blockTexture(Blocks.LIME_GLAZED_TERRACOTTA));
+        stairsBlock((StairBlock) ModBlocks.PINK_GLAZED_TERRACOTTA_STAIRS.get(), blockTexture(Blocks.PINK_GLAZED_TERRACOTTA));
+        stairsBlock((StairBlock) ModBlocks.GRAY_GLAZED_TERRACOTTA_STAIRS.get(), blockTexture(Blocks.GRAY_GLAZED_TERRACOTTA));
+        stairsBlock((StairBlock) ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_STAIRS.get(), blockTexture(Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA));
+        stairsBlock((StairBlock) ModBlocks.CYAN_GLAZED_TERRACOTTA_STAIRS.get(), blockTexture(Blocks.CYAN_GLAZED_TERRACOTTA));
+        stairsBlock((StairBlock) ModBlocks.PURPLE_GLAZED_TERRACOTTA_STAIRS.get(), blockTexture(Blocks.PURPLE_GLAZED_TERRACOTTA));
+        stairsBlock((StairBlock) ModBlocks.BLUE_GLAZED_TERRACOTTA_STAIRS.get(), blockTexture(Blocks.BLUE_GLAZED_TERRACOTTA));
+        stairsBlock((StairBlock) ModBlocks.BROWN_GLAZED_TERRACOTTA_STAIRS.get(), blockTexture(Blocks.BROWN_GLAZED_TERRACOTTA));
+        stairsBlock((StairBlock) ModBlocks.GREEN_GLAZED_TERRACOTTA_STAIRS.get(), blockTexture(Blocks.GREEN_GLAZED_TERRACOTTA));
+        stairsBlock((StairBlock) ModBlocks.RED_GLAZED_TERRACOTTA_STAIRS.get(), blockTexture(Blocks.RED_GLAZED_TERRACOTTA));
+        stairsBlock((StairBlock) ModBlocks.BLACK_GLAZED_TERRACOTTA_STAIRS.get(), blockTexture(Blocks.BLACK_GLAZED_TERRACOTTA));
+
+        blockItem(ModBlocks.WHITE_GLAZED_TERRACOTTA_STAIRS);
+        blockItem(ModBlocks.ORANGE_GLAZED_TERRACOTTA_STAIRS);
+        blockItem(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_STAIRS);
+        blockItem(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_STAIRS);
+        blockItem(ModBlocks.YELLOW_GLAZED_TERRACOTTA_STAIRS);
+        blockItem(ModBlocks.LIME_GLAZED_TERRACOTTA_STAIRS);
+        blockItem(ModBlocks.PINK_GLAZED_TERRACOTTA_STAIRS);
+        blockItem(ModBlocks.GRAY_GLAZED_TERRACOTTA_STAIRS);
+        blockItem(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_STAIRS);
+        blockItem(ModBlocks.CYAN_GLAZED_TERRACOTTA_STAIRS);
+        blockItem(ModBlocks.PURPLE_GLAZED_TERRACOTTA_STAIRS);
+        blockItem(ModBlocks.BLUE_GLAZED_TERRACOTTA_STAIRS);
+        blockItem(ModBlocks.BROWN_GLAZED_TERRACOTTA_STAIRS);
+        blockItem(ModBlocks.GREEN_GLAZED_TERRACOTTA_STAIRS);
+        blockItem(ModBlocks.RED_GLAZED_TERRACOTTA_STAIRS);
+        blockItem(ModBlocks.BLACK_GLAZED_TERRACOTTA_STAIRS);
+
+        wallBlock((WallBlock) ModBlocks.WHITE_GLAZED_TERRACOTTA_WALL.get(), blockTexture(Blocks.WHITE_GLAZED_TERRACOTTA));
+        wallBlock((WallBlock) ModBlocks.ORANGE_GLAZED_TERRACOTTA_WALL.get(), blockTexture(Blocks.ORANGE_GLAZED_TERRACOTTA));
+        wallBlock((WallBlock) ModBlocks.MAGENTA_GLAZED_TERRACOTTA_WALL.get(), blockTexture(Blocks.MAGENTA_GLAZED_TERRACOTTA));
+        wallBlock((WallBlock) ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_WALL.get(), blockTexture(Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA));
+        wallBlock((WallBlock) ModBlocks.YELLOW_GLAZED_TERRACOTTA_WALL.get(), blockTexture(Blocks.YELLOW_GLAZED_TERRACOTTA));
+        wallBlock((WallBlock) ModBlocks.LIME_GLAZED_TERRACOTTA_WALL.get(), blockTexture(Blocks.LIME_GLAZED_TERRACOTTA));
+        wallBlock((WallBlock) ModBlocks.PINK_GLAZED_TERRACOTTA_WALL.get(), blockTexture(Blocks.PINK_GLAZED_TERRACOTTA));
+        wallBlock((WallBlock) ModBlocks.GRAY_GLAZED_TERRACOTTA_WALL.get(), blockTexture(Blocks.GRAY_GLAZED_TERRACOTTA));
+        wallBlock((WallBlock) ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_WALL.get(), blockTexture(Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA));
+        wallBlock((WallBlock) ModBlocks.CYAN_GLAZED_TERRACOTTA_WALL.get(), blockTexture(Blocks.CYAN_GLAZED_TERRACOTTA));
+        wallBlock((WallBlock) ModBlocks.PURPLE_GLAZED_TERRACOTTA_WALL.get(), blockTexture(Blocks.PURPLE_GLAZED_TERRACOTTA));
+        wallBlock((WallBlock) ModBlocks.BLUE_GLAZED_TERRACOTTA_WALL.get(), blockTexture(Blocks.BLUE_GLAZED_TERRACOTTA));
+        wallBlock((WallBlock) ModBlocks.BROWN_GLAZED_TERRACOTTA_WALL.get(), blockTexture(Blocks.BROWN_GLAZED_TERRACOTTA));
+        wallBlock((WallBlock) ModBlocks.GREEN_GLAZED_TERRACOTTA_WALL.get(), blockTexture(Blocks.GREEN_GLAZED_TERRACOTTA));
+        wallBlock((WallBlock) ModBlocks.RED_GLAZED_TERRACOTTA_WALL.get(), blockTexture(Blocks.RED_GLAZED_TERRACOTTA));
+        wallBlock((WallBlock) ModBlocks.BLACK_GLAZED_TERRACOTTA_WALL.get(), blockTexture(Blocks.BLACK_GLAZED_TERRACOTTA));
+
 
     }
 

@@ -40,7 +40,26 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.ALEXANDRITE_FENCE_GATE.get(),
                         ModBlocks.ALEXANDRITE_WALL.get(),
                         ModBlocks.ALEXANDRITE_DOOR.get(),
-                        ModBlocks.ALEXANDRITE_TRAPDOOR.get());
+                        ModBlocks.ALEXANDRITE_TRAPDOOR.get(),
+
+                        ModBlocks.WHITE_GLAZED_TERRACOTTA_SLAB.get(),
+                        ModBlocks.ORANGE_GLAZED_TERRACOTTA_SLAB.get(),
+                        ModBlocks.MAGENTA_GLAZED_TERRACOTTA_SLAB.get(),
+                        ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_SLAB.get(),
+                        ModBlocks.YELLOW_GLAZED_TERRACOTTA_SLAB.get(),
+                        ModBlocks.LIME_GLAZED_TERRACOTTA_SLAB.get(),
+                        ModBlocks.PINK_GLAZED_TERRACOTTA_SLAB.get(),
+                        ModBlocks.GRAY_GLAZED_TERRACOTTA_SLAB.get(),
+                        ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_SLAB.get(),
+                        ModBlocks.CYAN_GLAZED_TERRACOTTA_SLAB.get(),
+                        ModBlocks.PURPLE_GLAZED_TERRACOTTA_SLAB.get(),
+                        ModBlocks.BLUE_GLAZED_TERRACOTTA_SLAB.get(),
+                        ModBlocks.BROWN_GLAZED_TERRACOTTA_SLAB.get(),
+                        ModBlocks.GREEN_GLAZED_TERRACOTTA_SLAB.get(),
+                        ModBlocks.RED_GLAZED_TERRACOTTA_SLAB.get(),
+                        ModBlocks.BLACK_GLAZED_TERRACOTTA_SLAB.get());
+
+
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.ALEXANDRITE_BLOCK.get(),

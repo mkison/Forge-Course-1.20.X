@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "mccourse:block/snapdragon"
+      "model": "mccourse:block/potted_snapdragon"
     }
   }
 }
