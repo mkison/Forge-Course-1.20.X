@@ -1,5 +1,21 @@
 {
   "values": [
-    "mccourse:alexandrite_wall"
+    "mccourse:alexandrite_wall",
+    "mccourse:white_glazed_terracotta_wall",
+    "mccourse:orange_glazed_terracotta_wall",
+    "mccourse:magenta_glazed_terracotta_wall",
+    "mccourse:light_blue_glazed_terracotta_wall",
+    "mccourse:yellow_glazed_terracotta_wall",
+    "mccourse:lime_glazed_terracotta_wall",
+    "mccourse:pink_glazed_terracotta_wall",
+    "mccourse:gray_glazed_terracotta_wall",
+    "mccourse:light_gray_glazed_terracotta_wall",
+    "mccourse:cyan_glazed_terracotta_wall",
+    "mccourse:purple_glazed_terracotta_wall",
+    "mccourse:blue_glazed_terracotta_wall",
+    "mccourse:brown_glazed_terracotta_wall",
+    "mccourse:green_glazed_terracotta_wall",
+    "mccourse:red_glazed_terracotta_wall",
+    "mccourse:black_glazed_terracotta_wall"
   ]
 }

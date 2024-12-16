@@ -96,7 +96,23 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.ALEXANDRITE_FENCE_GATE.get());
 
         this.tag(BlockTags.WALLS)
-                .add(ModBlocks.ALEXANDRITE_WALL.get());
+                .add(ModBlocks.ALEXANDRITE_WALL.get())
+                .add(ModBlocks.WHITE_GLAZED_TERRACOTTA_WALL.get())
+                .add(ModBlocks.ORANGE_GLAZED_TERRACOTTA_WALL.get())
+                .add(ModBlocks.MAGENTA_GLAZED_TERRACOTTA_WALL.get())
+                .add(ModBlocks.LIGHT_BLUE_GLAZED_TERRACOTTA_WALL.get())
+                .add(ModBlocks.YELLOW_GLAZED_TERRACOTTA_WALL.get())
+                .add(ModBlocks.LIME_GLAZED_TERRACOTTA_WALL.get())
+                .add(ModBlocks.PINK_GLAZED_TERRACOTTA_WALL.get())
+                .add(ModBlocks.GRAY_GLAZED_TERRACOTTA_WALL.get())
+                .add(ModBlocks.LIGHT_GRAY_GLAZED_TERRACOTTA_WALL.get())
+                .add(ModBlocks.CYAN_GLAZED_TERRACOTTA_WALL.get())
+                .add(ModBlocks.PURPLE_GLAZED_TERRACOTTA_WALL.get())
+                .add(ModBlocks.BLUE_GLAZED_TERRACOTTA_WALL.get())
+                .add(ModBlocks.BROWN_GLAZED_TERRACOTTA_WALL.get())
+                .add(ModBlocks.GREEN_GLAZED_TERRACOTTA_WALL.get())
+                .add(ModBlocks.RED_GLAZED_TERRACOTTA_WALL.get())
+                .add(ModBlocks.BLACK_GLAZED_TERRACOTTA_WALL.get());
     }
 
     @Override
