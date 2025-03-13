@@ -45,6 +45,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
         wallBlock((WallBlock) ModBlocks.ALEXANDRITE_WALL.get(), blockTexture(ModBlocks.ALEXANDRITE_BLOCK.get()));
 
         doorBlockWithRenderType((DoorBlock)ModBlocks.ALEXANDRITE_DOOR.get(), modLoc("block/alexandrite_door_bottom"), modLoc("block/alexandrite_door_top"), "cutout");
+        doorBlockWithRenderType((DoorBlock)ModBlocks.GLASS_DOOR.get(),
+                mcLoc("block/glass"),
+                mcLoc("block/glass"),
+                "cutout");
+
         trapdoorBlockWithRenderType((TrapDoorBlock) ModBlocks.ALEXANDRITE_TRAPDOOR.get(), modLoc("block/alexandrite_trapdoor"), true, "cutout");
 
         blockItem(ModBlocks.ALEXANDRITE_STAIRS);

@@ -116,7 +116,7 @@ public class ModEvents {
                 else if (player.getItemInHand(InteractionHand.MAIN_HAND).getItem() == Items.BELL) {
                     player.sendSystemMessage(Component.literal("hehe"));
 
-                    event.getEntity().setCustomName(Component.literal("jeb_"));
+                    event.getEntity().setCustomName(Component.literal("dinnerbone"));
                 }
             }
         }

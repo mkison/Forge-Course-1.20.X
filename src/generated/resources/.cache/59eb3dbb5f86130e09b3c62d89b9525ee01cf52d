@@ -1,4 +1,4 @@
-// 1.20.2	2024-12-12T18:30:47.587594	Loot Tables
+// 1.20.2	2025-03-03T20:44:32.910401	Loot Tables
 3c04bafc8e377b8b3a0acec4fb355ebe506bd32a data/mccourse/loot_tables/blocks/alexandrite_block.json
 5ee80a3f0dae7a738f12360934f26b319920a8a3 data/mccourse/loot_tables/blocks/alexandrite_button.json
 3cf926928d6232271016b028304beb66caa9effe data/mccourse/loot_tables/blocks/alexandrite_door.json
@@ -25,6 +25,7 @@ c7978270a91e4e589a1c55425a5d8365fe48e1bc data/mccourse/loot_tables/blocks/brown_
 c13badd7dc4e20b0a2a81ba47c9421d2c57b2e78 data/mccourse/loot_tables/blocks/cyan_glazed_terracotta_wall.json
 b0965d5fcc738eee398078e790faa2b0f6bff73e data/mccourse/loot_tables/blocks/deepslate_alexandrite_ore.json
 8e9ff1289ff28f5b041d5d2ed6c38384d2bc8386 data/mccourse/loot_tables/blocks/end_stone_alexandrite_ore.json
+17cfd08d4edabf83db687ca094405602040a776a data/mccourse/loot_tables/blocks/glass_door.json
 95d4b0558b6c359cf7a405ddce7e4b7dcbee2a72 data/mccourse/loot_tables/blocks/gray_glazed_terracotta_slab.json
 cece02fecb1e068436dd7da67e9327cff201a6e9 data/mccourse/loot_tables/blocks/gray_glazed_terracotta_stairs.json
 b8ba36464ee43f4165aaa4fe0ae217fbff5fb838 data/mccourse/loot_tables/blocks/gray_glazed_terracotta_wall.json

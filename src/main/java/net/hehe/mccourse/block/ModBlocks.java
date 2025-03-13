@@ -4,6 +4,7 @@ package net.hehe.mccourse.block;
 import net.hehe.mccourse.MCCourseMod;
 
 import net.hehe.mccourse.block.custom.AlexandriteLampBlock;
+import net.hehe.mccourse.block.custom.DirectionalSlabBlock;
 import net.hehe.mccourse.block.custom.KohlrabiCropBlock;
 import net.hehe.mccourse.block.custom.SoundBlock;
 import net.hehe.mccourse.item.ModItems;
@@ -238,45 +239,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> BLACK_GLAZED_TERRACOTTA_WALL = registerBlock("black_glazed_terracotta_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_GLAZED_TERRACOTTA)));
 
-    public static <T extends Block> Supplier<T> vanillaBlock(T block) {
-        return () -> block;
-    }
+    public static final RegistryObject<Block> GLASS_DOOR = registerBlock("glass_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.GLASS), BlockSetType.IRON));
 
-        public static final Supplier<Block> WHITE_GLAZED_TERRACOTTA = vanillaBlock(Blocks.WHITE_GLAZED_TERRACOTTA);
-        public static final Supplier<Block> ORANGE_GLAZED_TERRACOTTA = vanillaBlock(Blocks.ORANGE_GLAZED_TERRACOTTA);
-        public static final Supplier<Block> MAGENTA_GLAZED_TERRACOTTA = vanillaBlock(Blocks.MAGENTA_GLAZED_TERRACOTTA);
-        public static final Supplier<Block> LIGHT_BLUE_GLAZED_TERRACOTTA = vanillaBlock(Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA);
-        public static final Supplier<Block> YELLOW_GLAZED_TERRACOTTA = vanillaBlock(Blocks.YELLOW_GLAZED_TERRACOTTA);
-        public static final Supplier<Block> LIME_GLAZED_TERRACOTTA = vanillaBlock(Blocks.LIME_GLAZED_TERRACOTTA);
-        public static final Supplier<Block> PINK_GLAZED_TERRACOTTA = vanillaBlock(Blocks.PINK_GLAZED_TERRACOTTA);
-        public static final Supplier<Block> GRAY_GLAZED_TERRACOTTA = vanillaBlock(Blocks.GRAY_GLAZED_TERRACOTTA);
-        public static final Supplier<Block> LIGHT_GRAY_GLAZED_TERRACOTTA = vanillaBlock(Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA);
-        public static final Supplier<Block> CYAN_GLAZED_TERRACOTTA = vanillaBlock(Blocks.CYAN_GLAZED_TERRACOTTA);
-        public static final Supplier<Block> PURPLE_GLAZED_TERRACOTTA = vanillaBlock(Blocks.PURPLE_GLAZED_TERRACOTTA);
-        public static final Supplier<Block> BLUE_GLAZED_TERRACOTTA = vanillaBlock(Blocks.BLUE_GLAZED_TERRACOTTA);
-        public static final Supplier<Block> BROWN_GLAZED_TERRACOTTA = vanillaBlock(Blocks.BROWN_GLAZED_TERRACOTTA);
-        public static final Supplier<Block> GREEN_GLAZED_TERRACOTTA = vanillaBlock(Blocks.GREEN_GLAZED_TERRACOTTA);
-        public static final Supplier<Block> RED_GLAZED_TERRACOTTA = vanillaBlock(Blocks.RED_GLAZED_TERRACOTTA);
-        public static final Supplier<Block> BLACK_GLAZED_TERRACOTTA = vanillaBlock(Blocks.BLACK_GLAZED_TERRACOTTA);
-
-
-    /*WHITE_GLAZED_TERRACOTTA = register((String)"white_glazed_terracotta", new GlazedTerracottaBlock(Properties.of().mapColor(DyeColor.WHITE).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(1.4F).pushReaction(PushReaction.PUSH_ONLY)));
-        ORANGE_GLAZED_TERRACOTTA = register((String)"orange_glazed_terracotta", new GlazedTerracottaBlock(Properties.of().mapColor(DyeColor.ORANGE).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(1.4F).pushReaction(PushReaction.PUSH_ONLY)));
-        MAGENTA_GLAZED_TERRACOTTA = register((String)"magenta_glazed_terracotta", new GlazedTerracottaBlock(Properties.of().mapColor(DyeColor.MAGENTA).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(1.4F).pushReaction(PushReaction.PUSH_ONLY)));
-        LIGHT_BLUE_GLAZED_TERRACOTTA = register((String)"light_blue_glazed_terracotta", new GlazedTerracottaBlock(Properties.of().mapColor(DyeColor.LIGHT_BLUE).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(1.4F).pushReaction(PushReaction.PUSH_ONLY)));
-        YELLOW_GLAZED_TERRACOTTA = register((String)"yellow_glazed_terracotta", new GlazedTerracottaBlock(Properties.of().mapColor(DyeColor.YELLOW).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(1.4F).pushReaction(PushReaction.PUSH_ONLY)));
-        LIME_GLAZED_TERRACOTTA = register((String)"lime_glazed_terracotta", new GlazedTerracottaBlock(Properties.of().mapColor(DyeColor.LIME).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(1.4F).pushReaction(PushReaction.PUSH_ONLY)));
-        PINK_GLAZED_TERRACOTTA = register((String)"pink_glazed_terracotta", new GlazedTerracottaBlock(Properties.of().mapColor(DyeColor.PINK).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(1.4F).pushReaction(PushReaction.PUSH_ONLY)));
-        GRAY_GLAZED_TERRACOTTA = register((String)"gray_glazed_terracotta", new GlazedTerracottaBlock(Properties.of().mapColor(DyeColor.GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(1.4F).pushReaction(PushReaction.PUSH_ONLY)));
-        LIGHT_GRAY_GLAZED_TERRACOTTA = register((String)"light_gray_glazed_terracotta", new GlazedTerracottaBlock(Properties.of().mapColor(DyeColor.LIGHT_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(1.4F).pushReaction(PushReaction.PUSH_ONLY)));
-        CYAN_GLAZED_TERRACOTTA = register((String)"cyan_glazed_terracotta", new GlazedTerracottaBlock(Properties.of().mapColor(DyeColor.CYAN).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(1.4F).pushReaction(PushReaction.PUSH_ONLY)));
-        PURPLE_GLAZED_TERRACOTTA = register((String)"purple_glazed_terracotta", new GlazedTerracottaBlock(Properties.of().mapColor(DyeColor.PURPLE).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(1.4F).pushReaction(PushReaction.PUSH_ONLY)));
-        BLUE_GLAZED_TERRACOTTA = register((String)"blue_glazed_terracotta", new GlazedTerracottaBlock(Properties.of().mapColor(DyeColor.BLUE).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(1.4F).pushReaction(PushReaction.PUSH_ONLY)));
-        BROWN_GLAZED_TERRACOTTA = register((String)"brown_glazed_terracotta", new GlazedTerracottaBlock(Properties.of().mapColor(DyeColor.BROWN).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(1.4F).pushReaction(PushReaction.PUSH_ONLY)));
-        GREEN_GLAZED_TERRACOTTA = register((String)"green_glazed_terracotta", new GlazedTerracottaBlock(Properties.of().mapColor(DyeColor.GREEN).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(1.4F).pushReaction(PushReaction.PUSH_ONLY)));
-        RED_GLAZED_TERRACOTTA = register((String)"red_glazed_terracotta", new GlazedTerracottaBlock(Properties.of().mapColor(DyeColor.RED).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(1.4F).pushReaction(PushReaction.PUSH_ONLY)));
-        BLACK_GLAZED_TERRACOTTA = register((String)"black_glazed_terracotta", new GlazedTerracottaBlock(Properties.of().mapColor(DyeColor.BLACK).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(1.4F).pushReaction(PushReaction.PUSH_ONLY)));
-         */
 
 
 
