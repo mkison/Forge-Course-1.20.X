@@ -460,6 +460,524 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_black_glazed_terracotta", has(Items.BLACK_GLAZED_TERRACOTTA))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.WHITE_GLASS_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.WHITE_STAINED_GLASS)
+                .unlockedBy("has_white_stained_glass", has(Items.WHITE_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ORANGE_GLASS_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.ORANGE_STAINED_GLASS)
+                .unlockedBy("has_orange_stained_glass", has(Items.ORANGE_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.MAGENTA_GLASS_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.MAGENTA_STAINED_GLASS)
+                .unlockedBy("has_magenta_stained_glass", has(Items.MAGENTA_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.LIGHT_BLUE_GLASS_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.LIGHT_BLUE_STAINED_GLASS)
+                .unlockedBy("has_light_blue_stained_glass", has(Items.LIGHT_BLUE_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.YELLOW_GLASS_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.YELLOW_STAINED_GLASS)
+                .unlockedBy("has_yellow_stained_glass", has(Items.YELLOW_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.LIME_GLASS_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.LIME_STAINED_GLASS)
+                .unlockedBy("has_lime_stained_glass", has(Items.LIME_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PINK_GLASS_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.PINK_STAINED_GLASS)
+                .unlockedBy("has_pink_stained_glass", has(Items.PINK_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.GRAY_GLASS_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.GRAY_STAINED_GLASS)
+                .unlockedBy("has_gray_stained_glass", has(Items.GRAY_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.LIGHT_GRAY_GLASS_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.LIGHT_GRAY_STAINED_GLASS)
+                .unlockedBy("has_light_gray_stained_glass", has(Items.LIGHT_GRAY_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.CYAN_GLASS_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.CYAN_STAINED_GLASS)
+                .unlockedBy("has_cyan_stained_glass", has(Items.CYAN_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PURPLE_GLASS_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.PURPLE_STAINED_GLASS)
+                .unlockedBy("has_purple_stained_glass", has(Items.PURPLE_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BLUE_GLASS_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.BLUE_STAINED_GLASS)
+                .unlockedBy("has_blue_stained_glass", has(Items.BLUE_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BROWN_GLASS_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.BROWN_STAINED_GLASS)
+                .unlockedBy("has_brown_stained_glass", has(Items.BROWN_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.GREEN_GLASS_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.GREEN_STAINED_GLASS)
+                .unlockedBy("has_green_stained_glass", has(Items.GREEN_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RED_GLASS_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.RED_STAINED_GLASS)
+                .unlockedBy("has_red_stained_glass", has(Items.RED_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BLACK_GLASS_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.BLACK_STAINED_GLASS)
+                .unlockedBy("has_black_stained_glass", has(Items.BLACK_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.WHITE_GLASS_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.WHITE_STAINED_GLASS)
+                .unlockedBy("has_white_stained_glass", has(Items.WHITE_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ORANGE_GLASS_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.ORANGE_STAINED_GLASS)
+                .unlockedBy("has_orange_stained_glass", has(Items.ORANGE_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.MAGENTA_GLASS_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.MAGENTA_STAINED_GLASS)
+                .unlockedBy("has_magenta_stained_glass", has(Items.MAGENTA_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.LIGHT_BLUE_GLASS_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.LIGHT_BLUE_STAINED_GLASS)
+                .unlockedBy("has_light_blue_stained_glass", has(Items.LIGHT_BLUE_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.YELLOW_GLASS_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.YELLOW_STAINED_GLASS)
+                .unlockedBy("has_yellow_stained_glass", has(Items.YELLOW_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.LIME_GLASS_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.LIME_STAINED_GLASS)
+                .unlockedBy("has_lime_stained_glass", has(Items.LIME_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PINK_GLASS_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.PINK_STAINED_GLASS)
+                .unlockedBy("has_pink_stained_glass", has(Items.PINK_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.GRAY_GLASS_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.GRAY_STAINED_GLASS)
+                .unlockedBy("has_gray_stained_glass", has(Items.GRAY_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.LIGHT_GRAY_GLASS_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.LIGHT_GRAY_STAINED_GLASS)
+                .unlockedBy("has_light_gray_stained_glass", has(Items.LIGHT_GRAY_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.CYAN_GLASS_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.CYAN_STAINED_GLASS)
+                .unlockedBy("has_cyan_stained_glass", has(Items.CYAN_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PURPLE_GLASS_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.PURPLE_STAINED_GLASS)
+                .unlockedBy("has_purple_stained_glass", has(Items.PURPLE_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BLUE_GLASS_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.BLUE_STAINED_GLASS)
+                .unlockedBy("has_blue_stained_glass", has(Items.BLUE_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BROWN_GLASS_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.BROWN_STAINED_GLASS)
+                .unlockedBy("has_brown_stained_glass", has(Items.BROWN_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.GREEN_GLASS_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.GREEN_STAINED_GLASS)
+                .unlockedBy("has_green_stained_glass", has(Items.GREEN_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RED_GLASS_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.RED_STAINED_GLASS)
+                .unlockedBy("has_red_stained_glass", has(Items.RED_STAINED_GLASS))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BLACK_GLASS_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.BLACK_STAINED_GLASS)
+                .unlockedBy("has_black_stained_glass", has(Items.BLACK_STAINED_GLASS))
+                .save(pWriter);
+
+
+        // STAIRS
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.WHITE_WOOL_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.WHITE_WOOL)
+                .unlockedBy("has_white_wool", has(Items.WHITE_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ORANGE_WOOL_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.ORANGE_WOOL)
+                .unlockedBy("has_orange_wool", has(Items.ORANGE_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.MAGENTA_WOOL_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.MAGENTA_WOOL)
+                .unlockedBy("has_magenta_wool", has(Items.MAGENTA_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.LIGHT_BLUE_WOOL_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.LIGHT_BLUE_WOOL)
+                .unlockedBy("has_light_blue_wool", has(Items.LIGHT_BLUE_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.YELLOW_WOOL_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.YELLOW_WOOL)
+                .unlockedBy("has_yellow_wool", has(Items.YELLOW_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.LIME_WOOL_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.LIME_WOOL)
+                .unlockedBy("has_lime_wool", has(Items.LIME_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PINK_WOOL_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.PINK_WOOL)
+                .unlockedBy("has_pink_wool", has(Items.PINK_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.GRAY_WOOL_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.GRAY_WOOL)
+                .unlockedBy("has_gray_wool", has(Items.GRAY_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.LIGHT_GRAY_WOOL_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.LIGHT_GRAY_WOOL)
+                .unlockedBy("has_light_gray_wool", has(Items.LIGHT_GRAY_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.CYAN_WOOL_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.CYAN_WOOL)
+                .unlockedBy("has_cyan_wool", has(Items.CYAN_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PURPLE_WOOL_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.PURPLE_WOOL)
+                .unlockedBy("has_purple_wool", has(Items.PURPLE_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BLUE_WOOL_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.BLUE_WOOL)
+                .unlockedBy("has_blue_wool", has(Items.BLUE_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BROWN_WOOL_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.BROWN_WOOL)
+                .unlockedBy("has_brown_wool", has(Items.BROWN_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.GREEN_WOOL_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.GREEN_WOOL)
+                .unlockedBy("has_green_wool", has(Items.GREEN_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RED_WOOL_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.RED_WOOL)
+                .unlockedBy("has_red_wool", has(Items.RED_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BLACK_WOOL_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', Items.BLACK_WOOL)
+                .unlockedBy("has_black_wool", has(Items.BLACK_WOOL))
+                .save(pWriter);
+
+
+
+// SLABS
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.WHITE_WOOL_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.WHITE_WOOL)
+                .unlockedBy("has_white_wool", has(Items.WHITE_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ORANGE_WOOL_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.ORANGE_WOOL)
+                .unlockedBy("has_orange_wool", has(Items.ORANGE_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.MAGENTA_WOOL_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.MAGENTA_WOOL)
+                .unlockedBy("has_magenta_wool", has(Items.MAGENTA_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.LIGHT_BLUE_WOOL_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.LIGHT_BLUE_WOOL)
+                .unlockedBy("has_light_blue_wool", has(Items.LIGHT_BLUE_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.YELLOW_WOOL_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.YELLOW_WOOL)
+                .unlockedBy("has_yellow_wool", has(Items.YELLOW_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.LIME_WOOL_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.LIME_WOOL)
+                .unlockedBy("has_lime_wool", has(Items.LIME_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PINK_WOOL_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.PINK_WOOL)
+                .unlockedBy("has_pink_wool", has(Items.PINK_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.GRAY_WOOL_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.GRAY_WOOL)
+                .unlockedBy("has_gray_wool", has(Items.GRAY_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.LIGHT_GRAY_WOOL_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.LIGHT_GRAY_WOOL)
+                .unlockedBy("has_light_gray_wool", has(Items.LIGHT_GRAY_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.CYAN_WOOL_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.CYAN_WOOL)
+                .unlockedBy("has_cyan_wool", has(Items.CYAN_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PURPLE_WOOL_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.PURPLE_WOOL)
+                .unlockedBy("has_purple_wool", has(Items.PURPLE_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BLUE_WOOL_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.BLUE_WOOL)
+                .unlockedBy("has_blue_wool", has(Items.BLUE_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BROWN_WOOL_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.BROWN_WOOL)
+                .unlockedBy("has_brown_wool", has(Items.BROWN_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.GREEN_WOOL_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.GREEN_WOOL)
+                .unlockedBy("has_green_wool", has(Items.GREEN_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RED_WOOL_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.RED_WOOL)
+                .unlockedBy("has_red_wool", has(Items.RED_WOOL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BLACK_WOOL_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', Items.BLACK_WOOL)
+                .unlockedBy("has_black_wool", has(Items.BLACK_WOOL))
+                .save(pWriter);
+
+
     }
 
 

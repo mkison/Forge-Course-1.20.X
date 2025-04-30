@@ -71,6 +71,83 @@ public class BlockVariantsTab {
                         output.accept(ModBlocks.RED_GLAZED_TERRACOTTA_WALL.get());
                         output.accept(ModBlocks.BLACK_GLAZED_TERRACOTTA_WALL.get());
 
+                        output.accept(ModBlocks.WHITE_WOOL_STAIRS.get());
+                        output.accept(ModBlocks.ORANGE_WOOL_STAIRS.get());
+                        output.accept(ModBlocks.MAGENTA_WOOL_STAIRS.get());
+                        output.accept(ModBlocks.LIGHT_BLUE_WOOL_STAIRS.get());
+                        output.accept(ModBlocks.YELLOW_WOOL_STAIRS.get());
+                        output.accept(ModBlocks.LIME_WOOL_STAIRS.get());
+                        output.accept(ModBlocks.PINK_WOOL_STAIRS.get());
+                        output.accept(ModBlocks.GRAY_WOOL_STAIRS.get());
+                        output.accept(ModBlocks.LIGHT_GRAY_WOOL_STAIRS.get());
+                        output.accept(ModBlocks.CYAN_WOOL_STAIRS.get());
+                        output.accept(ModBlocks.PURPLE_WOOL_STAIRS.get());
+                        output.accept(ModBlocks.BLUE_WOOL_STAIRS.get());
+                        output.accept(ModBlocks.BROWN_WOOL_STAIRS.get());
+                        output.accept(ModBlocks.GREEN_WOOL_STAIRS.get());
+                        output.accept(ModBlocks.RED_WOOL_STAIRS.get());
+                        output.accept(ModBlocks.BLACK_WOOL_STAIRS.get());
+
+                        output.accept(ModBlocks.WHITE_WOOL_SLAB.get());
+                        output.accept(ModBlocks.ORANGE_WOOL_SLAB.get());
+                        output.accept(ModBlocks.MAGENTA_WOOL_SLAB.get());
+                        output.accept(ModBlocks.LIGHT_BLUE_WOOL_SLAB.get());
+                        output.accept(ModBlocks.YELLOW_WOOL_SLAB.get());
+                        output.accept(ModBlocks.LIME_WOOL_SLAB.get());
+                        output.accept(ModBlocks.PINK_WOOL_SLAB.get());
+                        output.accept(ModBlocks.GRAY_WOOL_SLAB.get());
+                        output.accept(ModBlocks.LIGHT_GRAY_WOOL_SLAB.get());
+                        output.accept(ModBlocks.CYAN_WOOL_SLAB.get());
+                        output.accept(ModBlocks.PURPLE_WOOL_SLAB.get());
+                        output.accept(ModBlocks.BLUE_WOOL_SLAB.get());
+                        output.accept(ModBlocks.BROWN_WOOL_SLAB.get());
+                        output.accept(ModBlocks.GREEN_WOOL_SLAB.get());
+                        output.accept(ModBlocks.RED_WOOL_SLAB.get());
+                        output.accept(ModBlocks.BLACK_WOOL_SLAB.get());
+
+
+
+                        output.accept(ModBlocks.GLASS_SLAB.get());
+                        output.accept(ModBlocks.WHITE_GLASS_SLAB.get());
+                        output.accept(ModBlocks.ORANGE_GLASS_SLAB.get());
+                        output.accept(ModBlocks.MAGENTA_GLASS_SLAB.get());
+                        output.accept(ModBlocks.LIGHT_BLUE_GLASS_SLAB.get());
+                        output.accept(ModBlocks.YELLOW_GLASS_SLAB.get());
+                        output.accept(ModBlocks.LIME_GLASS_SLAB.get());
+                        output.accept(ModBlocks.PINK_GLASS_SLAB.get());
+                        output.accept(ModBlocks.GRAY_GLASS_SLAB.get());
+                        output.accept(ModBlocks.LIGHT_GRAY_GLASS_SLAB.get());
+                        output.accept(ModBlocks.CYAN_GLASS_SLAB.get());
+                        output.accept(ModBlocks.PURPLE_GLASS_SLAB.get());
+                        output.accept(ModBlocks.BLUE_GLASS_SLAB.get());
+                        output.accept(ModBlocks.BROWN_GLASS_SLAB.get());
+                        output.accept(ModBlocks.GREEN_GLASS_SLAB.get());
+                        output.accept(ModBlocks.RED_GLASS_SLAB.get());
+                        output.accept(ModBlocks.BLACK_GLASS_SLAB.get());
+
+                        output.accept(ModBlocks.WHITE_GLASS_STAIRS.get());
+                        output.accept(ModBlocks.ORANGE_GLASS_STAIRS.get());
+                        output.accept(ModBlocks.MAGENTA_GLASS_STAIRS.get());
+                        output.accept(ModBlocks.LIGHT_BLUE_GLASS_STAIRS.get());
+                        output.accept(ModBlocks.YELLOW_GLASS_STAIRS.get());
+                        output.accept(ModBlocks.LIME_GLASS_STAIRS.get());
+                        output.accept(ModBlocks.PINK_GLASS_STAIRS.get());
+                        output.accept(ModBlocks.GRAY_GLASS_STAIRS.get());
+                        output.accept(ModBlocks.LIGHT_GRAY_GLASS_STAIRS.get());
+                        output.accept(ModBlocks.CYAN_GLASS_STAIRS.get());
+                        output.accept(ModBlocks.PURPLE_GLASS_STAIRS.get());
+                        output.accept(ModBlocks.BLUE_GLASS_STAIRS.get());
+                        output.accept(ModBlocks.BROWN_GLASS_STAIRS.get());
+                        output.accept(ModBlocks.GREEN_GLASS_STAIRS.get());
+                        output.accept(ModBlocks.RED_GLASS_STAIRS.get());
+                        output.accept(ModBlocks.BLACK_GLASS_STAIRS.get());
+                        output.accept(ModBlocks.GLASS_STAIRS.get());
+
+                        output.accept(ModBlocks.GLASS_FENCE.get());
+                        output.accept(ModBlocks.GLASS_FENCE_GATE.get());
+                        output.accept(ModBlocks.GLASS_DOOR.get());
+
+
 
                     }).build());
 

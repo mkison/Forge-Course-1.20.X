@@ -37,8 +37,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.ALEXANDRITE_SLAB.get(), block -> createSlabItemTable(ModBlocks.ALEXANDRITE_SLAB.get()));
         this.add(ModBlocks.ALEXANDRITE_DOOR.get(),
                 block -> createDoorTable(ModBlocks.ALEXANDRITE_DOOR.get()));
-        this.add(ModBlocks.GLASS_DOOR.get(),
-                block -> createDoorTable(ModBlocks.GLASS_DOOR.get()));
+
 
 
         this.add(ModBlocks.ALEXANDRITE_ORE.get(),
@@ -110,6 +109,87 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.GREEN_GLAZED_TERRACOTTA_WALL.get());
         this.dropSelf(ModBlocks.RED_GLAZED_TERRACOTTA_WALL.get());
         this.dropSelf(ModBlocks.BLACK_GLAZED_TERRACOTTA_WALL.get());
+
+
+        this.dropSelf(ModBlocks.WHITE_WOOL_STAIRS.get());
+        this.dropSelf(ModBlocks.ORANGE_WOOL_STAIRS.get());
+        this.dropSelf(ModBlocks.MAGENTA_WOOL_STAIRS.get());
+        this.dropSelf(ModBlocks.LIGHT_BLUE_WOOL_STAIRS.get());
+        this.dropSelf(ModBlocks.YELLOW_WOOL_STAIRS.get());
+        this.dropSelf(ModBlocks.LIME_WOOL_STAIRS.get());
+        this.dropSelf(ModBlocks.PINK_WOOL_STAIRS.get());
+        this.dropSelf(ModBlocks.GRAY_WOOL_STAIRS.get());
+        this.dropSelf(ModBlocks.LIGHT_GRAY_WOOL_STAIRS.get());
+        this.dropSelf(ModBlocks.CYAN_WOOL_STAIRS.get());
+        this.dropSelf(ModBlocks.PURPLE_WOOL_STAIRS.get());
+        this.dropSelf(ModBlocks.BLUE_WOOL_STAIRS.get());
+        this.dropSelf(ModBlocks.BROWN_WOOL_STAIRS.get());
+        this.dropSelf(ModBlocks.GREEN_WOOL_STAIRS.get());
+        this.dropSelf(ModBlocks.RED_WOOL_STAIRS.get());
+        this.dropSelf(ModBlocks.BLACK_WOOL_STAIRS.get());
+
+        this.add(ModBlocks.WHITE_WOOL_SLAB.get(), block -> createSlabItemTable(ModBlocks.WHITE_WOOL_SLAB.get()));
+        this.add(ModBlocks.ORANGE_WOOL_SLAB.get(), block -> createSlabItemTable(ModBlocks.ORANGE_WOOL_SLAB.get()));
+        this.add(ModBlocks.MAGENTA_WOOL_SLAB.get(), block -> createSlabItemTable(ModBlocks.MAGENTA_WOOL_SLAB.get()));
+        this.add(ModBlocks.LIGHT_BLUE_WOOL_SLAB.get(), block -> createSlabItemTable(ModBlocks.LIGHT_BLUE_WOOL_SLAB.get()));
+        this.add(ModBlocks.YELLOW_WOOL_SLAB.get(), block -> createSlabItemTable(ModBlocks.YELLOW_WOOL_SLAB.get()));
+        this.add(ModBlocks.LIME_WOOL_SLAB.get(), block -> createSlabItemTable(ModBlocks.LIME_WOOL_SLAB.get()));
+        this.add(ModBlocks.PINK_WOOL_SLAB.get(), block -> createSlabItemTable(ModBlocks.PINK_WOOL_SLAB.get()));
+        this.add(ModBlocks.GRAY_WOOL_SLAB.get(), block -> createSlabItemTable(ModBlocks.GRAY_WOOL_SLAB.get()));
+        this.add(ModBlocks.LIGHT_GRAY_WOOL_SLAB.get(), block -> createSlabItemTable(ModBlocks.LIGHT_GRAY_WOOL_SLAB.get()));
+        this.add(ModBlocks.CYAN_WOOL_SLAB.get(), block -> createSlabItemTable(ModBlocks.CYAN_WOOL_SLAB.get()));
+        this.add(ModBlocks.PURPLE_WOOL_SLAB.get(), block -> createSlabItemTable(ModBlocks.PURPLE_WOOL_SLAB.get()));
+        this.add(ModBlocks.BLUE_WOOL_SLAB.get(), block -> createSlabItemTable(ModBlocks.BLUE_WOOL_SLAB.get()));
+        this.add(ModBlocks.BROWN_WOOL_SLAB.get(), block -> createSlabItemTable(ModBlocks.BROWN_WOOL_SLAB.get()));
+        this.add(ModBlocks.GREEN_WOOL_SLAB.get(), block -> createSlabItemTable(ModBlocks.GREEN_WOOL_SLAB.get()));
+        this.add(ModBlocks.RED_WOOL_SLAB.get(), block -> createSlabItemTable(ModBlocks.RED_WOOL_SLAB.get()));
+        this.add(ModBlocks.BLACK_WOOL_SLAB.get(), block -> createSlabItemTable(ModBlocks.BLACK_WOOL_SLAB.get()));
+
+
+
+        this.add(ModBlocks.GLASS_SLAB.get(), block -> createSlabItemTable(ModBlocks.GLASS_SLAB.get()));
+        this.add(ModBlocks.WHITE_GLASS_SLAB.get(), block -> createSlabItemTable(ModBlocks.WHITE_GLASS_SLAB.get()));
+        this.add(ModBlocks.ORANGE_GLASS_SLAB.get(), block -> createSlabItemTable(ModBlocks.ORANGE_GLASS_SLAB.get()));
+        this.add(ModBlocks.MAGENTA_GLASS_SLAB.get(), block -> createSlabItemTable(ModBlocks.MAGENTA_GLASS_SLAB.get()));
+        this.add(ModBlocks.LIGHT_BLUE_GLASS_SLAB.get(), block -> createSlabItemTable(ModBlocks.LIGHT_BLUE_GLASS_SLAB.get()));
+        this.add(ModBlocks.YELLOW_GLASS_SLAB.get(), block -> createSlabItemTable(ModBlocks.YELLOW_GLASS_SLAB.get()));
+        this.add(ModBlocks.LIME_GLASS_SLAB.get(), block -> createSlabItemTable(ModBlocks.LIME_GLASS_SLAB.get()));
+        this.add(ModBlocks.PINK_GLASS_SLAB.get(), block -> createSlabItemTable(ModBlocks.PINK_GLASS_SLAB.get()));
+        this.add(ModBlocks.GRAY_GLASS_SLAB.get(), block -> createSlabItemTable(ModBlocks.GRAY_GLASS_SLAB.get()));
+        this.add(ModBlocks.LIGHT_GRAY_GLASS_SLAB.get(), block -> createSlabItemTable(ModBlocks.LIGHT_GRAY_GLASS_SLAB.get()));
+        this.add(ModBlocks.CYAN_GLASS_SLAB.get(), block -> createSlabItemTable(ModBlocks.CYAN_GLASS_SLAB.get()));
+        this.add(ModBlocks.PURPLE_GLASS_SLAB.get(), block -> createSlabItemTable(ModBlocks.PURPLE_GLASS_SLAB.get()));
+        this.add(ModBlocks.BLUE_GLASS_SLAB.get(), block -> createSlabItemTable(ModBlocks.BLUE_GLASS_SLAB.get()));
+        this.add(ModBlocks.BROWN_GLASS_SLAB.get(), block -> createSlabItemTable(ModBlocks.BROWN_GLASS_SLAB.get()));
+        this.add(ModBlocks.GREEN_GLASS_SLAB.get(), block -> createSlabItemTable(ModBlocks.GREEN_GLASS_SLAB.get()));
+        this.add(ModBlocks.RED_GLASS_SLAB.get(), block -> createSlabItemTable(ModBlocks.RED_GLASS_SLAB.get()));
+        this.add(ModBlocks.BLACK_GLASS_SLAB.get(), block -> createSlabItemTable(ModBlocks.BLACK_GLASS_SLAB.get()));
+
+        this.dropSelf(ModBlocks.GLASS_STAIRS.get());
+        this.dropSelf(ModBlocks.WHITE_GLASS_STAIRS.get());
+        this.dropSelf(ModBlocks.ORANGE_GLASS_STAIRS.get());
+        this.dropSelf(ModBlocks.MAGENTA_GLASS_STAIRS.get());
+        this.dropSelf(ModBlocks.LIGHT_BLUE_GLASS_STAIRS.get());
+        this.dropSelf(ModBlocks.YELLOW_GLASS_STAIRS.get());
+        this.dropSelf(ModBlocks.LIME_GLASS_STAIRS.get());
+        this.dropSelf(ModBlocks.PINK_GLASS_STAIRS.get());
+        this.dropSelf(ModBlocks.GRAY_GLASS_STAIRS.get());
+        this.dropSelf(ModBlocks.LIGHT_GRAY_GLASS_STAIRS.get());
+        this.dropSelf(ModBlocks.CYAN_GLASS_STAIRS.get());
+        this.dropSelf(ModBlocks.PURPLE_GLASS_STAIRS.get());
+        this.dropSelf(ModBlocks.BLUE_GLASS_STAIRS.get());
+        this.dropSelf(ModBlocks.BROWN_GLASS_STAIRS.get());
+        this.dropSelf(ModBlocks.GREEN_GLASS_STAIRS.get());
+        this.dropSelf(ModBlocks.RED_GLASS_STAIRS.get());
+        this.dropSelf(ModBlocks.BLACK_GLASS_STAIRS.get());
+
+
+
+        this.add(ModBlocks.GLASS_DOOR.get(),
+                block -> createDoorTable(ModBlocks.GLASS_DOOR.get()));
+
+        this.dropSelf(ModBlocks.GLASS_FENCE.get());
+        this.dropSelf(ModBlocks.GLASS_FENCE_GATE.get());
 
 
     }

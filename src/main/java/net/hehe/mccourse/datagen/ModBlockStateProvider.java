@@ -153,6 +153,157 @@ public class ModBlockStateProvider extends BlockStateProvider {
         wallBlock((WallBlock) ModBlocks.BLACK_GLAZED_TERRACOTTA_WALL.get(), blockTexture(Blocks.BLACK_GLAZED_TERRACOTTA));
 
 
+
+        stairsBlock((StairBlock) ModBlocks.WHITE_WOOL_STAIRS.get(), blockTexture(Blocks.WHITE_WOOL));
+        stairsBlock((StairBlock) ModBlocks.ORANGE_WOOL_STAIRS.get(), blockTexture(Blocks.ORANGE_WOOL));
+        stairsBlock((StairBlock) ModBlocks.MAGENTA_WOOL_STAIRS.get(), blockTexture(Blocks.MAGENTA_WOOL));
+        stairsBlock((StairBlock) ModBlocks.LIGHT_BLUE_WOOL_STAIRS.get(), blockTexture(Blocks.LIGHT_BLUE_WOOL));
+        stairsBlock((StairBlock) ModBlocks.YELLOW_WOOL_STAIRS.get(), blockTexture(Blocks.YELLOW_WOOL));
+        stairsBlock((StairBlock) ModBlocks.LIME_WOOL_STAIRS.get(), blockTexture(Blocks.LIME_WOOL));
+        stairsBlock((StairBlock) ModBlocks.PINK_WOOL_STAIRS.get(), blockTexture(Blocks.PINK_WOOL));
+        stairsBlock((StairBlock) ModBlocks.GRAY_WOOL_STAIRS.get(), blockTexture(Blocks.GRAY_WOOL));
+        stairsBlock((StairBlock) ModBlocks.LIGHT_GRAY_WOOL_STAIRS.get(), blockTexture(Blocks.LIGHT_GRAY_WOOL));
+        stairsBlock((StairBlock) ModBlocks.CYAN_WOOL_STAIRS.get(), blockTexture(Blocks.CYAN_WOOL));
+        stairsBlock((StairBlock) ModBlocks.PURPLE_WOOL_STAIRS.get(), blockTexture(Blocks.PURPLE_WOOL));
+        stairsBlock((StairBlock) ModBlocks.BLUE_WOOL_STAIRS.get(), blockTexture(Blocks.BLUE_WOOL));
+        stairsBlock((StairBlock) ModBlocks.BROWN_WOOL_STAIRS.get(), blockTexture(Blocks.BROWN_WOOL));
+        stairsBlock((StairBlock) ModBlocks.GREEN_WOOL_STAIRS.get(), blockTexture(Blocks.GREEN_WOOL));
+        stairsBlock((StairBlock) ModBlocks.RED_WOOL_STAIRS.get(), blockTexture(Blocks.RED_WOOL));
+        stairsBlock((StairBlock) ModBlocks.BLACK_WOOL_STAIRS.get(), blockTexture(Blocks.BLACK_WOOL));
+
+        slabBlock(((SlabBlock) ModBlocks.WHITE_WOOL_SLAB.get()), blockTexture(Blocks.WHITE_WOOL), blockTexture(Blocks.WHITE_WOOL));
+        slabBlock(((SlabBlock) ModBlocks.ORANGE_WOOL_SLAB.get()), blockTexture(Blocks.ORANGE_WOOL), blockTexture(Blocks.ORANGE_WOOL));
+        slabBlock(((SlabBlock) ModBlocks.MAGENTA_WOOL_SLAB.get()), blockTexture(Blocks.MAGENTA_WOOL), blockTexture(Blocks.MAGENTA_WOOL));
+        slabBlock(((SlabBlock) ModBlocks.LIGHT_BLUE_WOOL_SLAB.get()), blockTexture(Blocks.LIGHT_BLUE_WOOL), blockTexture(Blocks.LIGHT_BLUE_WOOL));
+        slabBlock(((SlabBlock) ModBlocks.YELLOW_WOOL_SLAB.get()), blockTexture(Blocks.YELLOW_WOOL), blockTexture(Blocks.YELLOW_WOOL));
+        slabBlock(((SlabBlock) ModBlocks.LIME_WOOL_SLAB.get()), blockTexture(Blocks.LIME_WOOL), blockTexture(Blocks.LIME_WOOL));
+        slabBlock(((SlabBlock) ModBlocks.PINK_WOOL_SLAB.get()), blockTexture(Blocks.PINK_WOOL), blockTexture(Blocks.PINK_WOOL));
+        slabBlock(((SlabBlock) ModBlocks.GRAY_WOOL_SLAB.get()), blockTexture(Blocks.GRAY_WOOL), blockTexture(Blocks.GRAY_WOOL));
+        slabBlock(((SlabBlock) ModBlocks.LIGHT_GRAY_WOOL_SLAB.get()), blockTexture(Blocks.LIGHT_GRAY_WOOL), blockTexture(Blocks.LIGHT_GRAY_WOOL));
+        slabBlock(((SlabBlock) ModBlocks.CYAN_WOOL_SLAB.get()), blockTexture(Blocks.CYAN_WOOL), blockTexture(Blocks.CYAN_WOOL));
+        slabBlock(((SlabBlock) ModBlocks.PURPLE_WOOL_SLAB.get()), blockTexture(Blocks.PURPLE_WOOL), blockTexture(Blocks.PURPLE_WOOL));
+        slabBlock(((SlabBlock) ModBlocks.BLUE_WOOL_SLAB.get()), blockTexture(Blocks.BLUE_WOOL), blockTexture(Blocks.BLUE_WOOL));
+        slabBlock(((SlabBlock) ModBlocks.BROWN_WOOL_SLAB.get()), blockTexture(Blocks.BROWN_WOOL), blockTexture(Blocks.BROWN_WOOL));
+        slabBlock(((SlabBlock) ModBlocks.GREEN_WOOL_SLAB.get()), blockTexture(Blocks.GREEN_WOOL), blockTexture(Blocks.GREEN_WOOL));
+        slabBlock(((SlabBlock) ModBlocks.RED_WOOL_SLAB.get()), blockTexture(Blocks.RED_WOOL), blockTexture(Blocks.RED_WOOL));
+        slabBlock(((SlabBlock) ModBlocks.BLACK_WOOL_SLAB.get()), blockTexture(Blocks.BLACK_WOOL), blockTexture(Blocks.BLACK_WOOL));
+
+
+
+        stairsBlock((StairBlock) ModBlocks.GLASS_STAIRS.get(), blockTexture(Blocks.GLASS));
+        stairsBlock((StairBlock) ModBlocks.WHITE_GLASS_STAIRS.get(), blockTexture(Blocks.WHITE_STAINED_GLASS));
+        stairsBlock((StairBlock) ModBlocks.ORANGE_GLASS_STAIRS.get(), blockTexture(Blocks.ORANGE_STAINED_GLASS));
+        stairsBlock((StairBlock) ModBlocks.MAGENTA_GLASS_STAIRS.get(), blockTexture(Blocks.MAGENTA_STAINED_GLASS));
+        stairsBlock((StairBlock) ModBlocks.LIGHT_BLUE_GLASS_STAIRS.get(), blockTexture(Blocks.LIGHT_BLUE_STAINED_GLASS));
+        stairsBlock((StairBlock) ModBlocks.YELLOW_GLASS_STAIRS.get(), blockTexture(Blocks.YELLOW_STAINED_GLASS));
+        stairsBlock((StairBlock) ModBlocks.LIME_GLASS_STAIRS.get(), blockTexture(Blocks.LIME_STAINED_GLASS));
+        stairsBlock((StairBlock) ModBlocks.PINK_GLASS_STAIRS.get(), blockTexture(Blocks.PINK_STAINED_GLASS));
+        stairsBlock((StairBlock) ModBlocks.GRAY_GLASS_STAIRS.get(), blockTexture(Blocks.GRAY_STAINED_GLASS));
+        stairsBlock((StairBlock) ModBlocks.LIGHT_GRAY_GLASS_STAIRS.get(), blockTexture(Blocks.LIGHT_GRAY_STAINED_GLASS));
+        stairsBlock((StairBlock) ModBlocks.CYAN_GLASS_STAIRS.get(), blockTexture(Blocks.CYAN_STAINED_GLASS));
+        stairsBlock((StairBlock) ModBlocks.PURPLE_GLASS_STAIRS.get(), blockTexture(Blocks.PURPLE_STAINED_GLASS));
+        stairsBlock((StairBlock) ModBlocks.BLUE_GLASS_STAIRS.get(), blockTexture(Blocks.BLUE_STAINED_GLASS));
+        stairsBlock((StairBlock) ModBlocks.BROWN_GLASS_STAIRS.get(), blockTexture(Blocks.BROWN_STAINED_GLASS));
+        stairsBlock((StairBlock) ModBlocks.GREEN_GLASS_STAIRS.get(), blockTexture(Blocks.GREEN_STAINED_GLASS));
+        stairsBlock((StairBlock) ModBlocks.RED_GLASS_STAIRS.get(), blockTexture(Blocks.RED_STAINED_GLASS));
+        stairsBlock((StairBlock) ModBlocks.BLACK_GLASS_STAIRS.get(), blockTexture(Blocks.BLACK_STAINED_GLASS));
+
+        slabBlock(((SlabBlock) ModBlocks.GLASS_SLAB.get()), blockTexture(Blocks.GLASS), blockTexture(Blocks.GLASS));
+        slabBlock(((SlabBlock) ModBlocks.WHITE_GLASS_SLAB.get()), blockTexture(Blocks.WHITE_STAINED_GLASS), blockTexture(Blocks.WHITE_STAINED_GLASS));
+        slabBlock(((SlabBlock) ModBlocks.ORANGE_GLASS_SLAB.get()), blockTexture(Blocks.ORANGE_STAINED_GLASS), blockTexture(Blocks.ORANGE_STAINED_GLASS));
+        slabBlock(((SlabBlock) ModBlocks.MAGENTA_GLASS_SLAB.get()), blockTexture(Blocks.MAGENTA_STAINED_GLASS), blockTexture(Blocks.MAGENTA_STAINED_GLASS));
+        slabBlock(((SlabBlock) ModBlocks.LIGHT_BLUE_GLASS_SLAB.get()), blockTexture(Blocks.LIGHT_BLUE_STAINED_GLASS), blockTexture(Blocks.LIGHT_BLUE_STAINED_GLASS));
+        slabBlock(((SlabBlock) ModBlocks.YELLOW_GLASS_SLAB.get()), blockTexture(Blocks.YELLOW_STAINED_GLASS), blockTexture(Blocks.YELLOW_STAINED_GLASS));
+        slabBlock(((SlabBlock) ModBlocks.LIME_GLASS_SLAB.get()), blockTexture(Blocks.LIME_STAINED_GLASS), blockTexture(Blocks.LIME_STAINED_GLASS));
+        slabBlock(((SlabBlock) ModBlocks.PINK_GLASS_SLAB.get()), blockTexture(Blocks.PINK_STAINED_GLASS), blockTexture(Blocks.PINK_STAINED_GLASS));
+        slabBlock(((SlabBlock) ModBlocks.GRAY_GLASS_SLAB.get()), blockTexture(Blocks.GRAY_STAINED_GLASS), blockTexture(Blocks.GRAY_STAINED_GLASS));
+        slabBlock(((SlabBlock) ModBlocks.LIGHT_GRAY_GLASS_SLAB.get()), blockTexture(Blocks.LIGHT_GRAY_STAINED_GLASS), blockTexture(Blocks.LIGHT_GRAY_STAINED_GLASS));
+        slabBlock(((SlabBlock) ModBlocks.CYAN_GLASS_SLAB.get()), blockTexture(Blocks.CYAN_STAINED_GLASS), blockTexture(Blocks.CYAN_STAINED_GLASS));
+        slabBlock(((SlabBlock) ModBlocks.PURPLE_GLASS_SLAB.get()), blockTexture(Blocks.PURPLE_STAINED_GLASS), blockTexture(Blocks.PURPLE_STAINED_GLASS));
+        slabBlock(((SlabBlock) ModBlocks.BLUE_GLASS_SLAB.get()), blockTexture(Blocks.BLUE_STAINED_GLASS), blockTexture(Blocks.BLUE_STAINED_GLASS));
+        slabBlock(((SlabBlock) ModBlocks.BROWN_GLASS_SLAB.get()), blockTexture(Blocks.BROWN_STAINED_GLASS), blockTexture(Blocks.BROWN_STAINED_GLASS));
+        slabBlock(((SlabBlock) ModBlocks.GREEN_GLASS_SLAB.get()), blockTexture(Blocks.GREEN_STAINED_GLASS), blockTexture(Blocks.GREEN_STAINED_GLASS));
+        slabBlock(((SlabBlock) ModBlocks.RED_GLASS_SLAB.get()), blockTexture(Blocks.RED_STAINED_GLASS), blockTexture(Blocks.RED_STAINED_GLASS));
+        slabBlock(((SlabBlock) ModBlocks.BLACK_GLASS_SLAB.get()), blockTexture(Blocks.BLACK_STAINED_GLASS), blockTexture(Blocks.BLACK_STAINED_GLASS));
+
+
+        fenceBlock((FenceBlock) ModBlocks.GLASS_FENCE.get(), blockTexture(Blocks.GLASS));
+        fenceGateBlock((FenceGateBlock) ModBlocks.GLASS_FENCE_GATE.get(), blockTexture(Blocks.GLASS));
+
+        blockItem(ModBlocks.WHITE_WOOL_STAIRS);
+        blockItem(ModBlocks.ORANGE_WOOL_STAIRS);
+        blockItem(ModBlocks.MAGENTA_WOOL_STAIRS);
+        blockItem(ModBlocks.LIGHT_BLUE_WOOL_STAIRS);
+        blockItem(ModBlocks.YELLOW_WOOL_STAIRS);
+        blockItem(ModBlocks.LIME_WOOL_STAIRS);
+        blockItem(ModBlocks.PINK_WOOL_STAIRS);
+        blockItem(ModBlocks.GRAY_WOOL_STAIRS);
+        blockItem(ModBlocks.LIGHT_GRAY_WOOL_STAIRS);
+        blockItem(ModBlocks.CYAN_WOOL_STAIRS);
+        blockItem(ModBlocks.PURPLE_WOOL_STAIRS);
+        blockItem(ModBlocks.BLUE_WOOL_STAIRS);
+        blockItem(ModBlocks.BROWN_WOOL_STAIRS);
+        blockItem(ModBlocks.GREEN_WOOL_STAIRS);
+        blockItem(ModBlocks.RED_WOOL_STAIRS);
+        blockItem(ModBlocks.BLACK_WOOL_STAIRS);
+
+        blockItem(ModBlocks.WHITE_WOOL_SLAB);
+        blockItem(ModBlocks.ORANGE_WOOL_SLAB);
+        blockItem(ModBlocks.MAGENTA_WOOL_SLAB);
+        blockItem(ModBlocks.LIGHT_BLUE_WOOL_SLAB);
+        blockItem(ModBlocks.YELLOW_WOOL_SLAB);
+        blockItem(ModBlocks.LIME_WOOL_SLAB);
+        blockItem(ModBlocks.PINK_WOOL_SLAB);
+        blockItem(ModBlocks.GRAY_WOOL_SLAB);
+        blockItem(ModBlocks.LIGHT_GRAY_WOOL_SLAB);
+        blockItem(ModBlocks.CYAN_WOOL_SLAB);
+        blockItem(ModBlocks.PURPLE_WOOL_SLAB);
+        blockItem(ModBlocks.BLUE_WOOL_SLAB);
+        blockItem(ModBlocks.BROWN_WOOL_SLAB);
+        blockItem(ModBlocks.GREEN_WOOL_SLAB);
+        blockItem(ModBlocks.RED_WOOL_SLAB);
+        blockItem(ModBlocks.BLACK_WOOL_SLAB);
+
+
+        blockItem(ModBlocks.GLASS_STAIRS);
+        blockItem(ModBlocks.WHITE_GLASS_STAIRS);
+        blockItem(ModBlocks.ORANGE_GLASS_STAIRS);
+        blockItem(ModBlocks.MAGENTA_GLASS_STAIRS);
+        blockItem(ModBlocks.LIGHT_BLUE_GLASS_STAIRS);
+        blockItem(ModBlocks.YELLOW_GLASS_STAIRS);
+        blockItem(ModBlocks.LIME_GLASS_STAIRS);
+        blockItem(ModBlocks.PINK_GLASS_STAIRS);
+        blockItem(ModBlocks.GRAY_GLASS_STAIRS);
+        blockItem(ModBlocks.LIGHT_GRAY_GLASS_STAIRS);
+        blockItem(ModBlocks.CYAN_GLASS_STAIRS);
+        blockItem(ModBlocks.PURPLE_GLASS_STAIRS);
+        blockItem(ModBlocks.BLUE_GLASS_STAIRS);
+        blockItem(ModBlocks.BROWN_GLASS_STAIRS);
+        blockItem(ModBlocks.GREEN_GLASS_STAIRS);
+        blockItem(ModBlocks.RED_GLASS_STAIRS);
+        blockItem(ModBlocks.BLACK_GLASS_STAIRS);
+
+        blockItem(ModBlocks.GLASS_SLAB);
+        blockItem(ModBlocks.WHITE_GLASS_SLAB);
+        blockItem(ModBlocks.ORANGE_GLASS_SLAB);
+        blockItem(ModBlocks.MAGENTA_GLASS_SLAB);
+        blockItem(ModBlocks.LIGHT_BLUE_GLASS_SLAB);
+        blockItem(ModBlocks.YELLOW_GLASS_SLAB);
+        blockItem(ModBlocks.LIME_GLASS_SLAB);
+        blockItem(ModBlocks.PINK_GLASS_SLAB);
+        blockItem(ModBlocks.GRAY_GLASS_SLAB);
+        blockItem(ModBlocks.LIGHT_GRAY_GLASS_SLAB);
+        blockItem(ModBlocks.CYAN_GLASS_SLAB);
+        blockItem(ModBlocks.PURPLE_GLASS_SLAB);
+        blockItem(ModBlocks.BLUE_GLASS_SLAB);
+        blockItem(ModBlocks.BROWN_GLASS_SLAB);
+        blockItem(ModBlocks.GREEN_GLASS_SLAB);
+        blockItem(ModBlocks.RED_GLASS_SLAB);
+        blockItem(ModBlocks.BLACK_GLASS_SLAB);
+
+        blockItem(ModBlocks.GLASS_FENCE_GATE);
+
+
     }
 
     public void makeCrop(CropBlock block, String modelName, String textureName) {

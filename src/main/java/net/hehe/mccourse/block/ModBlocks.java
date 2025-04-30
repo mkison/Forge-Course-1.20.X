@@ -4,7 +4,6 @@ package net.hehe.mccourse.block;
 import net.hehe.mccourse.MCCourseMod;
 
 import net.hehe.mccourse.block.custom.AlexandriteLampBlock;
-import net.hehe.mccourse.block.custom.DirectionalSlabBlock;
 import net.hehe.mccourse.block.custom.KohlrabiCropBlock;
 import net.hehe.mccourse.block.custom.SoundBlock;
 import net.hehe.mccourse.item.ModItems;
@@ -239,8 +238,214 @@ public class ModBlocks {
     public static final RegistryObject<Block> BLACK_GLAZED_TERRACOTTA_WALL = registerBlock("black_glazed_terracotta_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_GLAZED_TERRACOTTA)));
 
+    public static final RegistryObject<Block> WHITE_WOOL_STAIRS = registerBlock("white_wool_stairs",
+            () -> new StairBlock(Blocks.WHITE_WOOL::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)));
+
+    public static final RegistryObject<Block> ORANGE_WOOL_STAIRS = registerBlock("orange_wool_stairs",
+            () -> new StairBlock(Blocks.ORANGE_WOOL::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.ORANGE_WOOL)));
+
+    public static final RegistryObject<Block> MAGENTA_WOOL_STAIRS = registerBlock("magenta_wool_stairs",
+            () -> new StairBlock(Blocks.MAGENTA_WOOL::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.MAGENTA_WOOL)));
+
+    public static final RegistryObject<Block> LIGHT_BLUE_WOOL_STAIRS = registerBlock("light_blue_wool_stairs",
+            () -> new StairBlock(Blocks.LIGHT_BLUE_WOOL::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_WOOL)));
+
+    public static final RegistryObject<Block> YELLOW_WOOL_STAIRS = registerBlock("yellow_wool_stairs",
+            () -> new StairBlock(Blocks.YELLOW_WOOL::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.YELLOW_WOOL)));
+
+    public static final RegistryObject<Block> LIME_WOOL_STAIRS = registerBlock("lime_wool_stairs",
+            () -> new StairBlock(Blocks.LIME_WOOL::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.LIME_WOOL)));
+
+    public static final RegistryObject<Block> PINK_WOOL_STAIRS = registerBlock("pink_wool_stairs",
+            () -> new StairBlock(Blocks.PINK_WOOL::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.PINK_WOOL)));
+
+    public static final RegistryObject<Block> GRAY_WOOL_STAIRS = registerBlock("gray_wool_stairs",
+            () -> new StairBlock(Blocks.GRAY_WOOL::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.GRAY_WOOL)));
+
+    public static final RegistryObject<Block> LIGHT_GRAY_WOOL_STAIRS = registerBlock("light_gray_wool_stairs",
+            () -> new StairBlock(Blocks.LIGHT_GRAY_WOOL::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_WOOL)));
+
+    public static final RegistryObject<Block> CYAN_WOOL_STAIRS = registerBlock("cyan_wool_stairs",
+            () -> new StairBlock(Blocks.CYAN_WOOL::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.CYAN_WOOL)));
+
+    public static final RegistryObject<Block> PURPLE_WOOL_STAIRS = registerBlock("purple_wool_stairs",
+            () -> new StairBlock(Blocks.PURPLE_WOOL::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.PURPLE_WOOL)));
+
+    public static final RegistryObject<Block> BLUE_WOOL_STAIRS = registerBlock("blue_wool_stairs",
+            () -> new StairBlock(Blocks.BLUE_WOOL::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.BLUE_WOOL)));
+
+    public static final RegistryObject<Block> BROWN_WOOL_STAIRS = registerBlock("brown_wool_stairs",
+            () -> new StairBlock(Blocks.BROWN_WOOL::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.BROWN_WOOL)));
+
+    public static final RegistryObject<Block> GREEN_WOOL_STAIRS = registerBlock("green_wool_stairs",
+            () -> new StairBlock(Blocks.GREEN_WOOL::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.GREEN_WOOL)));
+
+    public static final RegistryObject<Block> RED_WOOL_STAIRS = registerBlock("red_wool_stairs",
+            () -> new StairBlock(Blocks.RED_WOOL::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.RED_WOOL)));
+
+    public static final RegistryObject<Block> BLACK_WOOL_STAIRS = registerBlock("black_wool_stairs",
+            () -> new StairBlock(Blocks.BLACK_WOOL::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.BLACK_WOOL)));
+
+    public static final RegistryObject<Block> WHITE_WOOL_SLAB = registerBlock("white_wool_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)));
+
+    public static final RegistryObject<Block> ORANGE_WOOL_SLAB = registerBlock("orange_wool_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.ORANGE_WOOL)));
+
+    public static final RegistryObject<Block> MAGENTA_WOOL_SLAB = registerBlock("magenta_wool_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MAGENTA_WOOL)));
+
+    public static final RegistryObject<Block> LIGHT_BLUE_WOOL_SLAB = registerBlock("light_blue_wool_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_WOOL)));
+
+    public static final RegistryObject<Block> YELLOW_WOOL_SLAB = registerBlock("yellow_wool_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.YELLOW_WOOL)));
+
+    public static final RegistryObject<Block> LIME_WOOL_SLAB = registerBlock("lime_wool_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.LIME_WOOL)));
+
+    public static final RegistryObject<Block> PINK_WOOL_SLAB = registerBlock("pink_wool_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.PINK_WOOL)));
+
+    public static final RegistryObject<Block> GRAY_WOOL_SLAB = registerBlock("gray_wool_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRAY_WOOL)));
+
+    public static final RegistryObject<Block> LIGHT_GRAY_WOOL_SLAB = registerBlock("light_gray_wool_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_WOOL)));
+
+    public static final RegistryObject<Block> CYAN_WOOL_SLAB = registerBlock("cyan_wool_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CYAN_WOOL)));
+
+    public static final RegistryObject<Block> PURPLE_WOOL_SLAB = registerBlock("purple_wool_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.PURPLE_WOOL)));
+
+    public static final RegistryObject<Block> BLUE_WOOL_SLAB = registerBlock("blue_wool_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BLUE_WOOL)));
+
+    public static final RegistryObject<Block> BROWN_WOOL_SLAB = registerBlock("brown_wool_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_WOOL)));
+
+    public static final RegistryObject<Block> GREEN_WOOL_SLAB = registerBlock("green_wool_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GREEN_WOOL)));
+
+    public static final RegistryObject<Block> RED_WOOL_SLAB = registerBlock("red_wool_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.RED_WOOL)));
+
+    public static final RegistryObject<Block> BLACK_WOOL_SLAB = registerBlock("black_wool_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_WOOL)));
+
+
+
+
+    public static final RegistryObject<Block> GLASS_SLAB = registerBlock("glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> WHITE_GLASS_SLAB = registerBlock("white_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> ORANGE_GLASS_SLAB = registerBlock("orange_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.ORANGE_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> MAGENTA_GLASS_SLAB = registerBlock("magenta_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MAGENTA_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> LIGHT_BLUE_GLASS_SLAB = registerBlock("light_blue_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> YELLOW_GLASS_SLAB = registerBlock("yellow_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.YELLOW_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> LIME_GLASS_SLAB = registerBlock("lime_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.LIME_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> PINK_GLASS_SLAB = registerBlock("pink_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.PINK_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> GRAY_GLASS_SLAB = registerBlock("gray_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRAY_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> LIGHT_GRAY_GLASS_SLAB = registerBlock("light_gray_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> CYAN_GLASS_SLAB = registerBlock("cyan_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CYAN_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> PURPLE_GLASS_SLAB = registerBlock("purple_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.PURPLE_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> BLUE_GLASS_SLAB = registerBlock("blue_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BLUE_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> BROWN_GLASS_SLAB = registerBlock("brown_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> GREEN_GLASS_SLAB = registerBlock("green_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GREEN_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> RED_GLASS_SLAB = registerBlock("red_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.RED_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> BLACK_GLASS_SLAB = registerBlock("black_glass_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> GLASS_STAIRS = registerBlock("glass_stairs",
+            () -> new StairBlock(Blocks.GLASS::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion()));
+    public static final RegistryObject<Block> WHITE_GLASS_STAIRS = registerBlock("white_glass_stairs",
+            () -> new StairBlock(Blocks.WHITE_STAINED_GLASS::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.WHITE_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> ORANGE_GLASS_STAIRS = registerBlock("orange_glass_stairs",
+            () -> new StairBlock(Blocks.ORANGE_STAINED_GLASS::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.ORANGE_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> MAGENTA_GLASS_STAIRS = registerBlock("magenta_glass_stairs",
+            () -> new StairBlock(Blocks.MAGENTA_STAINED_GLASS::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.MAGENTA_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> LIGHT_BLUE_GLASS_STAIRS = registerBlock("light_blue_glass_stairs",
+            () -> new StairBlock(Blocks.LIGHT_BLUE_STAINED_GLASS::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> YELLOW_GLASS_STAIRS = registerBlock("yellow_glass_stairs",
+            () -> new StairBlock(Blocks.YELLOW_STAINED_GLASS::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.YELLOW_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> LIME_GLASS_STAIRS = registerBlock("lime_glass_stairs",
+            () -> new StairBlock(Blocks.LIME_STAINED_GLASS::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.LIME_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> PINK_GLASS_STAIRS = registerBlock("pink_glass_stairs",
+            () -> new StairBlock(Blocks.PINK_STAINED_GLASS::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.PINK_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> GRAY_GLASS_STAIRS = registerBlock("gray_glass_stairs",
+            () -> new StairBlock(Blocks.GRAY_STAINED_GLASS::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.GRAY_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> LIGHT_GRAY_GLASS_STAIRS = registerBlock("light_gray_glass_stairs",
+            () -> new StairBlock(Blocks.LIGHT_GRAY_STAINED_GLASS::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> CYAN_GLASS_STAIRS = registerBlock("cyan_glass_stairs",
+            () -> new StairBlock(Blocks.CYAN_STAINED_GLASS::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.CYAN_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> PURPLE_GLASS_STAIRS = registerBlock("purple_glass_stairs",
+            () -> new StairBlock(Blocks.PURPLE_STAINED_GLASS::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.PURPLE_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> BLUE_GLASS_STAIRS = registerBlock("blue_glass_stairs",
+            () -> new StairBlock(Blocks.BLUE_STAINED_GLASS::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.BLUE_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> BROWN_GLASS_STAIRS = registerBlock("brown_glass_stairs",
+            () -> new StairBlock(Blocks.BROWN_STAINED_GLASS::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.BROWN_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> GREEN_GLASS_STAIRS = registerBlock("green_glass_stairs",
+            () -> new StairBlock(Blocks.GREEN_STAINED_GLASS::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.GREEN_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> RED_GLASS_STAIRS = registerBlock("red_glass_stairs",
+            () -> new StairBlock(Blocks.RED_STAINED_GLASS::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.RED_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> BLACK_GLASS_STAIRS = registerBlock("black_glass_stairs",
+            () -> new StairBlock(Blocks.BLACK_STAINED_GLASS::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.BLACK_STAINED_GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> GLASS_FENCE = registerBlock("glass_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion().sound(SoundType.GLASS)));
+
+    public static final RegistryObject<Block> GLASS_FENCE_GATE = registerBlock("glass_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion(), SoundEvents.GLASS_PLACE, SoundEvents.GLASS_STEP));
+
     public static final RegistryObject<Block> GLASS_DOOR = registerBlock("glass_door",
-            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.GLASS), BlockSetType.IRON));
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.GLASS), BlockSetType.OAK));
 
 
 

@@ -90,10 +90,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.END_STONE_ALEXANDRITE_ORE.get());
 
         this.tag(BlockTags.FENCES)
-                .add(ModBlocks.ALEXANDRITE_FENCE.get());
+                .add(ModBlocks.ALEXANDRITE_FENCE.get())
+                .add(ModBlocks.GLASS_FENCE.get());
 
         this.tag(BlockTags.FENCE_GATES)
-                .add(ModBlocks.ALEXANDRITE_FENCE_GATE.get());
+                .add(ModBlocks.ALEXANDRITE_FENCE_GATE.get())
+                .add(ModBlocks.GLASS_FENCE_GATE.get());
 
         this.tag(BlockTags.WALLS)
                 .add(ModBlocks.ALEXANDRITE_WALL.get())

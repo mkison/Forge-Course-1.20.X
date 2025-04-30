@@ -8,6 +8,8 @@ import net.hehe.mccourse.modTabs.CourseTab;
 import net.hehe.mccourse.block.ModBlocks;
 import net.hehe.mccourse.item.ModItems;
 import net.hehe.mccourse.sound.ModSounds;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.ComposterBlock;
@@ -43,6 +45,7 @@ public class MCCourseMod {
         ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
+        modEventBus.addListener(this::onClientSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
@@ -57,6 +60,50 @@ public class MCCourseMod {
         });
 
     }
+
+    private void onClientSetup(final FMLCommonSetupEvent event) {
+
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.GLASS_SLAB.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.WHITE_GLASS_SLAB.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ORANGE_GLASS_SLAB.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.MAGENTA_GLASS_SLAB.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.LIGHT_BLUE_GLASS_SLAB.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.YELLOW_GLASS_SLAB.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.LIME_GLASS_SLAB.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.PINK_GLASS_SLAB.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.GRAY_GLASS_SLAB.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.LIGHT_GRAY_GLASS_SLAB.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.CYAN_GLASS_SLAB.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.PURPLE_GLASS_SLAB.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.BLUE_GLASS_SLAB.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.BROWN_GLASS_SLAB.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.GREEN_GLASS_SLAB.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.RED_GLASS_SLAB.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.BLACK_GLASS_SLAB.get(), RenderType.translucent());
+
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.GLASS_STAIRS.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.WHITE_GLASS_STAIRS.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ORANGE_GLASS_STAIRS.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.MAGENTA_GLASS_STAIRS.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.LIGHT_BLUE_GLASS_STAIRS.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.YELLOW_GLASS_STAIRS.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.LIME_GLASS_STAIRS.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.PINK_GLASS_STAIRS.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.GRAY_GLASS_STAIRS.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.LIGHT_GRAY_GLASS_STAIRS.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.CYAN_GLASS_STAIRS.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.PURPLE_GLASS_STAIRS.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.BLUE_GLASS_STAIRS.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.BROWN_GLASS_STAIRS.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.GREEN_GLASS_STAIRS.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.RED_GLASS_STAIRS.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.BLACK_GLASS_STAIRS.get(), RenderType.translucent());
+
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.GLASS_FENCE.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.GLASS_FENCE_GATE.get(), RenderType.translucent());
+    }
+
+
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
